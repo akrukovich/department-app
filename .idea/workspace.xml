@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="438e7525-991d-42ad-8e80-45f934111a4f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="284" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="department-app" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UZiUOm9JB2YVuv1dSPfzByEHEY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="department-app" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="department-app" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/static/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app/templates/home" />
+      <recent name="$PROJECT_DIR$/app/static" />
+      <recent name="$PROJECT_DIR$/app/static/css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in test_errors.py">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="department-app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="department-app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="department-app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/department-app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/department-app/run" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="department-app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_errors.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="department-app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_errors.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test_main" />
+      <item itemvalue="Python.manage" />
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python.run (1)" />
+      <item itemvalue="Python tests.Unittests in test_errors.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests in test_errors.py" />
+        <item itemvalue="Python.test_main" />
+        <item itemvalue="Python.run (1)" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="438e7525-991d-42ad-8e80-45f934111a4f" name="Default Changelist" comment="" />
+      <created>1575570532652</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575570532652</updated>
+      <workItem from="1575570534281" duration="104000" />
+      <workItem from="1575579209941" duration="32000" />
+      <workItem from="1575631495196" duration="5257000" />
+      <workItem from="1575637372420" duration="7646000" />
+      <workItem from="1575647994032" duration="5079000" />
+      <workItem from="1575654771211" duration="12000" />
+      <workItem from="1575663585456" duration="694000" />
+      <workItem from="1575664536253" duration="2737000" />
+      <workItem from="1575707237474" duration="10735000" />
+      <workItem from="1575728679576" duration="8884000" />
+      <workItem from="1575810466199" duration="9890000" />
+      <workItem from="1575826795390" duration="6790000" />
+      <workItem from="1575843299846" duration="7841000" />
+      <workItem from="1575908212428" duration="718000" />
+      <workItem from="1575918552995" duration="6685000" />
+      <workItem from="1575935122868" duration="2844000" />
+      <workItem from="1575966628548" duration="1863000" />
+      <workItem from="1575968643799" duration="380000" />
+      <workItem from="1576006101261" duration="13507000" />
+      <workItem from="1576060709177" duration="7536000" />
+      <workItem from="1576080328689" duration="224000" />
+      <workItem from="1576093764157" duration="2604000" />
+      <workItem from="1576157135658" duration="26837000" />
+      <workItem from="1576189214727" duration="5885000" />
+      <workItem from="1576232612651" duration="26395000" />
+      <workItem from="1576337278153" duration="5878000" />
+      <workItem from="1576346288394" duration="657000" />
+      <workItem from="1576348259603" duration="6562000" />
+      <workItem from="1576369839464" duration="3663000" />
+      <workItem from="1576696808632" duration="4332000" />
+      <workItem from="1576709503695" duration="4000" />
+      <workItem from="1576771825069" duration="13384000" />
+      <workItem from="1576859018562" duration="24000" />
+      <workItem from="1577023010939" duration="5687000" />
+      <workItem from="1577047970014" duration="3808000" />
+      <workItem from="1577116798093" duration="5576000" />
+      <workItem from="1577205589194" duration="7145000" />
+      <workItem from="1577294478789" duration="3131000" />
+      <workItem from="1577318338488" duration="2332000" />
+      <workItem from="1577369180499" duration="2544000" />
+      <workItem from="1577373058277" duration="164000" />
+      <workItem from="1577373239625" duration="18016000" />
+      <workItem from="1577402928623" duration="780000" />
+      <workItem from="1577454463538" duration="9737000" />
+      <workItem from="1577557129031" duration="5828000" />
+      <workItem from="1577636073515" duration="7897000" />
+      <workItem from="1577712528162" duration="4117000" />
+      <workItem from="1577720537469" duration="3840000" />
+      <workItem from="1577725878400" duration="5647000" />
+      <workItem from="1577750870714" duration="3948000" />
+      <workItem from="1577788780897" duration="702000" />
+      <workItem from="1577980903982" duration="12857000" />
+      <workItem from="1578003077232" duration="4774000" />
+      <workItem from="1578007871693" duration="8000" />
+      <workItem from="1578049851041" duration="8777000" />
+      <workItem from="1578058648129" duration="2151000" />
+      <workItem from="1578060842977" duration="14590000" />
+      <workItem from="1578078055836" duration="568000" />
+      <workItem from="1578078656684" duration="80000" />
+      <workItem from="1578087670971" duration="80000" />
+      <workItem from="1578087942385" duration="2522000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="389" y="64" width="800" height="677" key="#Custom_Plugin_Repositories" timestamp="1575664262987">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="389" y="64" width="800" height="677" key="#Custom_Plugin_Repositories/67.27.1299.741@67.27.1299.741" timestamp="1575664262987" />
+    <state x="311" y="58" width="800" height="677" key="#Inspections" timestamp="1575818869471">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="311" y="58" width="800" height="677" key="#Inspections/67.27.1299.741@67.27.1299.741" timestamp="1575818869471" />
+    <state x="311" y="58" width="800" height="677" key="#Log_Highlighting_(ideolog)" timestamp="1577294803696">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="311" y="58" width="800" height="677" key="#Log_Highlighting_(ideolog)/67.27.1299.741@67.27.1299.741" timestamp="1577294803696" />
+    <state x="390" y="27" width="642" height="741" key="#Unittests_in_test_forms.py" timestamp="1578058467716">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="390" y="27" width="642" height="741" key="#Unittests_in_test_forms.py/67.27.1299.741@67.27.1299.741" timestamp="1578058467716" />
+    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578088301834">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1578088301834" />
+    <state x="167" y="125" width="1099" height="543" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1578059064357">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="167" y="125" width="1099" height="543" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/67.27.1299.741@67.27.1299.741" timestamp="1578059064357" />
+    <state x="421" y="201" width="597" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577212326091">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="421" y="201" width="597" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1577212326091" />
+    <state x="449" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577454820463">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="449" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1299.741@67.27.1299.741" timestamp="1577454820463" />
+    <state x="466" y="267" width="480" height="288" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1576165341543">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="466" y="267" width="480" height="288" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.1299.741@67.27.1299.741" timestamp="1576165341543" />
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1578087748844">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1578087748844" />
+    <state x="122" y="27" width="1179" height="741" key="FileDocumentManager.FileCacheConflict" timestamp="1577387666079">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="122" y="27" width="1179" height="741" key="FileDocumentManager.FileCacheConflict/67.27.1299.741@67.27.1299.741" timestamp="1577387666079" />
+    <state width="1253" height="460" key="GridCell.Tab.0.bottom" timestamp="1578090208920">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="460" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1578090208920" />
+    <state width="1253" height="460" key="GridCell.Tab.0.center" timestamp="1578090208914">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="460" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1578090208914" />
+    <state width="1253" height="460" key="GridCell.Tab.0.left" timestamp="1578090208913">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="460" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1578090208913" />
+    <state width="1253" height="460" key="GridCell.Tab.0.right" timestamp="1578090208915">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="460" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1578090208915" />
+    <state width="1253" height="165" key="GridCell.Tab.1.bottom" timestamp="1578058629173">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="165" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1578058629173" />
+    <state width="1253" height="165" key="GridCell.Tab.1.center" timestamp="1578058629172">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="165" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1578058629172" />
+    <state width="1253" height="165" key="GridCell.Tab.1.left" timestamp="1578058629172">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="165" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1578058629172" />
+    <state width="1253" height="165" key="GridCell.Tab.1.right" timestamp="1578058629172">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="165" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1578058629172" />
+    <state x="205" y="31" key="SettingsEditor" timestamp="1578089113287">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1578089113287" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1578087675857">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1578087675857" />
+    <state x="370" y="27" width="683" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577026186164">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="370" y="27" width="683" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1299.741@67.27.1299.741" timestamp="1577026186164" />
+    <state x="251" y="135" width="921" height="522" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1578058540987">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="251" y="135" width="921" height="522" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/67.27.1299.741@67.27.1299.741" timestamp="1578058540987" />
+    <state x="508" y="224" key="export.test.results" timestamp="1577458097696">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="508" y="224" key="export.test.results/67.27.1299.741@67.27.1299.741" timestamp="1577458097696" />
+    <state x="67" y="104" width="866" height="664" key="find.popup" timestamp="1576782159711">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="67" y="104" width="866" height="664" key="find.popup/67.27.1299.741@67.27.1299.741" timestamp="1576782159711" />
+    <state x="644" y="132" width="672" height="678" key="search.everywhere.popup" timestamp="1577403612758">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="644" y="132" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1577403612758" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_views_TestAuthViews_test_logout_view.coverage" NAME="Unittests for test_views.TestAuthViews.test_logout_view Coverage Results" MODIFIED="1578007830909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_forms_TestAdminForms_test_department_query.coverage" NAME="Unittests for test_forms.TestAdminForms.test_department_query Coverage Results" MODIFIED="1577990766694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_forms_TestAuthForms_test_validate_success_login_form.coverage" NAME="Unittests for test_forms.TestAuthForms.test_validate_success_login_form Coverage Results" MODIFIED="1577987875184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1578088097715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/department_app$run.coverage" NAME="run Coverage Results" MODIFIED="1578078543053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/department-app" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_forms_TestAdminForms_test_validate_success_department_form.coverage" NAME="Unittests for test_forms.TestAdminForms.test_validate_success_department_form Coverage Results" MODIFIED="1577990112991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_in_tests_py.coverage" NAME="Unittests in tests.py Coverage Results" MODIFIED="1577641737432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_forms_TestBase.coverage" NAME="Unittests for test_forms.TestBase Coverage Results" MODIFIED="1577752591556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$test_views.coverage" NAME="test_views Coverage Results" MODIFIED="1578061740622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$test_main.coverage" NAME="test_main Coverage Results" MODIFIED="1578088161995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_views_TestAuthViews_test_correct_login.coverage" NAME="Unittests for test_views.TestAuthViews.test_correct_login Coverage Results" MODIFIED="1578007511710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_views_TestAdminViews_test_correct_login.coverage" NAME="Unittests for test_views.TestAdminViews.test_correct_login Coverage Results" MODIFIED="1578055896657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$manage.coverage" NAME="manage Coverage Results" MODIFIED="1578066103430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_forms_TestAuthForms_test_validate_invalid_password_format.coverage" NAME="Unittests for test_forms.TestAuthForms.test_validate_invalid_password_format Coverage Results" MODIFIED="1577987402326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_in_test_errors_py.coverage" NAME="Unittests in test_errors.py Coverage Results" MODIFIED="1578089209724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_forms_TestAuthForms_test_validate_email_already_registered.coverage" NAME="Unittests for test_forms.TestAuthForms.test_validate_email_already_registered Coverage Results" MODIFIED="1577987771563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_in_test_views_py.coverage" NAME="Unittests in test_views.py Coverage Results" MODIFIED="1578058448747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_views_TestAuthViews_test_register_view.coverage" NAME="Unittests for test_views.TestAuthViews.test_register_view Coverage Results" MODIFIED="1578050323459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_in___init___py.coverage" NAME="Unittests in __init__.py Coverage Results" MODIFIED="1578059672631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$test_forms.coverage" NAME="test_forms Coverage Results" MODIFIED="1578061112228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_forms_TestAdminForms_test_get_pk.coverage" NAME="Unittests for test_forms.TestAdminForms.test_get_pk Coverage Results" MODIFIED="1577990982967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$tests.coverage" NAME="tests Coverage Results" MODIFIED="1578063674749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_in_test_forms_py.coverage" NAME="Unittests in test_forms.py Coverage Results" MODIFIED="1578061634048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_forms_TestAuthForms_test_user_registration_form_displays.coverage" NAME="Unittests for test_forms.TestAuthForms.test_user_registration_form_displays Coverage Results" MODIFIED="1577754383022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_views_TestAdminViews_test_department_view.coverage" NAME="Unittests for test_views.TestAdminViews.test_department_view Coverage Results" MODIFIED="1578050127721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_in_test_models_py.coverage" NAME="Unittests in test_models.py Coverage Results" MODIFIED="1577721417371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_forms_TestAuthForms_test_validate_success_register_form.coverage" NAME="Unittests for test_forms.TestAuthForms.test_validate_success_register_form Coverage Results" MODIFIED="1577987307809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_views_TestAuthViews_test_login_view.coverage" NAME="Unittests for test_views.TestAuthViews.test_login_view Coverage Results" MODIFIED="1578050469512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$flaskblog.coverage" NAME="flaskblog Coverage Results" MODIFIED="1576777037104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PycharmProjects/flaskpractice" />
+    <SUITE FILE_PATH="coverage/department_app$test_errors.coverage" NAME="test_errors Coverage Results" MODIFIED="1578061656063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_views_TestViews_test_employees_view.coverage" NAME="Unittests for test_views.TestViews.test_employees_view Coverage Results" MODIFIED="1577721773766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_forms_TestAdminForms_test_validate_department_already_exist.coverage" NAME="Unittests for test_forms.TestAdminForms.test_validate_department_already_exist Coverage Results" MODIFIED="1577990520907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_views_TestAdminViews_test_list_dep.coverage" NAME="Unittests for test_views.TestAdminViews.test_list_dep Coverage Results" MODIFIED="1578052555406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_views_TestAdminViews_test_check_admin.coverage" NAME="Unittests for test_views.TestAdminViews.test_check_admin Coverage Results" MODIFIED="1578058126544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_models_TestModels_test_employee_model.coverage" NAME="Unittests for test_models.TestModels.test_employee_model Coverage Results" MODIFIED="1578061492622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_forms_TestAuthForms_test_validate_invalid_email_format.coverage" NAME="Unittests for test_forms.TestAuthForms.test_validate_invalid_email_format Coverage Results" MODIFIED="1577987892539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_views_TestHomeViews_test_homepage_view.coverage" NAME="Unittests for test_views.TestHomeViews.test_homepage_view Coverage Results" MODIFIED="1578003820772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_forms_TestAdminForms_test_validate_success_employee_form.coverage" NAME="Unittests for test_forms.TestAdminForms.test_validate_success_employee_form Coverage Results" MODIFIED="1577991955152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_forms_TestAuthForms_test_valid_user_registration.coverage" NAME="Unittests for test_forms.TestAuthForms.test_valid_user_registration Coverage Results" MODIFIED="1577788863333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+  </component>
+</project>

@@ -1,0 +1,36 @@
+2020-01-03 16:28:14,246 - app - 403 Error occurred
+2020-01-03 16:28:14,863 - app - 404 Error occurred
+2020-01-03 16:28:15,437 - app - 500 Error occurred
+2020-01-03 16:29:02,366 - __main__ - Login page status: 200. Test is done.
+2020-01-03 16:29:02,753 - __main__ - No access to logout before logging in, status: 302
+2020-01-03 16:29:02,753 - __main__ - Redirected to login page  status: 302. Test is done
+2020-01-03 16:29:03,232 - __main__ - register page status: 200. Test is done.
+2020-01-03 16:29:03,625 - __main__ - No access to home.admin.dashboard, status: 302
+2020-01-03 16:29:03,626 - __main__ - Redirected to login page  status: 302. Test is done
+2020-01-03 16:29:03,999 - __main__ - No access to home.dashboard, status: 302
+2020-01-03 16:29:04,000 - __main__ - Redirected to login page  status: 302. Test is done
+2020-01-03 16:29:04,463 - __main__ - Homepage status: 200. Test is done.
+2020-01-04 00:06:50,596 - app.util - Test database has been created
+2020-01-04 00:06:50,722 - app.util - admin has been created
+2020-01-04 00:06:50,834 - app.util - test_user has been created
+2020-01-04 00:06:50,834 - app.util - TestDep has been created
+2020-01-04 00:06:50,853 - app.util - Test TestDep, admin and test_user have been committed
+2020-01-04 00:06:50,855 - app - 403 Error occurred
+2020-01-04 00:06:50,876 - app.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-04 00:06:50,895 - app.util - Test database has been created
+2020-01-04 00:06:51,003 - app.util - admin has been created
+2020-01-04 00:06:51,118 - app.util - test_user has been created
+2020-01-04 00:06:51,118 - app.util - TestDep has been created
+2020-01-04 00:06:51,125 - app.util - Test TestDep, admin and test_user have been committed
+2020-01-04 00:06:51,125 - app - 404 Error occurred
+2020-01-04 00:06:51,140 - app.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-04 00:06:51,156 - app.util - Test database has been created
+2020-01-04 00:06:51,265 - app.util - admin has been created
+2020-01-04 00:06:51,371 - app.util - test_user has been created
+2020-01-04 00:06:51,371 - app.util - TestDep has been created
+2020-01-04 00:06:51,378 - app.util - Test TestDep, admin and test_user have been committed
+2020-01-04 00:06:51,380 - app - 500 Error occurred
+2020-01-04 00:06:51,393 - app.util - Test database has been deleted
+--------------------------------------------------------------------------------------

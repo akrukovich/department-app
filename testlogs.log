@@ -1,0 +1,332 @@
+2019-12-29 19:48:58,232 - tests.tests - Test database has been created
+2019-12-29 19:48:58,356 - tests.tests - admin has been created
+2019-12-29 19:48:58,468 - tests.tests - test_user has been created
+2019-12-29 19:48:58,483 - tests.tests - Test admin and test_user have been committed
+2019-12-29 19:48:58,502 - tests.tests - 403 forbidden status: 403. Test is done.
+2019-12-29 19:48:58,519 - tests.tests - Test databased has been deleted
+--------------------------------------------------------------------------------------
+2019-12-29 19:48:58,639 - tests.tests - Test database has been created
+2019-12-29 19:48:58,758 - tests.tests - admin has been created
+2019-12-29 19:48:58,885 - tests.tests - test_user has been created
+2019-12-29 19:48:58,900 - tests.tests - Test admin and test_user have been committed
+2019-12-29 19:48:58,926 - tests.tests - Access to /empty is denied.It doesn't exist, status: 404. Test is done
+2019-12-29 19:48:58,947 - tests.tests - Test databased has been deleted
+--------------------------------------------------------------------------------------
+2019-12-29 19:48:59,066 - tests.tests - Test database has been created
+2019-12-29 19:48:59,189 - tests.tests - admin has been created
+2019-12-29 19:48:59,303 - tests.tests - test_user has been created
+2019-12-29 19:48:59,320 - tests.tests - Test admin and test_user have been committed
+2019-12-29 19:48:59,337 - tests.tests - Access is denied,server error, status: 500. Test is done
+2019-12-29 19:48:59,352 - tests.tests - Test databased has been deleted
+--------------------------------------------------------------------------------------
+2019-12-29 19:48:59,468 - tests.tests - Test database has been created
+2019-12-29 19:48:59,586 - tests.tests - admin has been created
+2019-12-29 19:48:59,701 - tests.tests - test_user has been created
+2019-12-29 19:48:59,715 - tests.tests - Test admin and test_user have been committed
+2019-12-29 19:48:59,722 - tests.tests - Department TestDEP has been committed
+2019-12-29 19:48:59,744 - tests.tests - Test databased has been deleted
+--------------------------------------------------------------------------------------
+2019-12-29 19:48:59,872 - tests.tests - Test database has been created
+2019-12-29 19:48:59,987 - tests.tests - admin has been created
+2019-12-29 19:49:00,099 - tests.tests - test_user has been created
+2019-12-29 19:49:00,114 - tests.tests - Test admin and test_user have been committed
+2019-12-29 19:49:00,139 - tests.tests - Test databased has been deleted
+--------------------------------------------------------------------------------------
+2019-12-29 19:49:00,264 - tests.tests - Test database has been created
+2019-12-29 19:49:00,376 - tests.tests - admin has been created
+2019-12-29 19:49:00,484 - tests.tests - test_user has been created
+2019-12-29 19:49:00,499 - tests.tests - Test admin and test_user have been committed
+2019-12-29 19:49:00,503 - tests.tests - No access to home.admin.dashboard, status: 302
+2019-12-29 19:49:00,503 - tests.tests - Redirected to login page  status: 302. Test is done
+2019-12-29 19:49:00,522 - tests.tests - Test databased has been deleted
+--------------------------------------------------------------------------------------
+2019-12-29 19:49:00,635 - tests.tests - Test database has been created
+2019-12-29 19:49:00,749 - tests.tests - admin has been created
+2019-12-29 19:49:00,861 - tests.tests - test_user has been created
+2019-12-29 19:49:00,871 - tests.tests - Test admin and test_user have been committed
+2019-12-29 19:49:00,873 - tests.tests - No access to home.dashboard, status: 302
+2019-12-29 19:49:00,874 - tests.tests - Redirected to login page  status: 302. Test is done
+2019-12-29 19:49:00,888 - tests.tests - Test databased has been deleted
+--------------------------------------------------------------------------------------
+2019-12-29 19:49:01,008 - tests.tests - Test database has been created
+2019-12-29 19:49:01,124 - tests.tests - admin has been created
+2019-12-29 19:49:01,234 - tests.tests - test_user has been created
+2019-12-29 19:49:01,248 - tests.tests - Test admin and test_user have been committed
+2019-12-29 19:49:01,250 - tests.tests - No access to admin.list_departments, status: 302
+2019-12-29 19:49:01,250 - tests.tests - Redirected to login page  status: 302. Test is done
+2019-12-29 19:49:01,267 - tests.tests - Test databased has been deleted
+--------------------------------------------------------------------------------------
+2019-12-29 19:49:01,385 - tests.tests - Test database has been created
+2019-12-29 19:49:01,494 - tests.tests - admin has been created
+2019-12-29 19:49:01,602 - tests.tests - test_user has been created
+2019-12-29 19:49:01,626 - tests.tests - Test admin and test_user have been committed
+2019-12-29 19:49:01,630 - tests.tests - No access to admin.list_employees, status: 302
+2019-12-29 19:49:01,630 - tests.tests - Redirected to login page  status: 302. Test is done
+2019-12-29 19:49:01,646 - tests.tests - Test databased has been deleted
+--------------------------------------------------------------------------------------
+2019-12-29 19:49:01,764 - tests.tests - Test database has been created
+2019-12-29 19:49:01,875 - tests.tests - admin has been created
+2019-12-29 19:49:01,982 - tests.tests - test_user has been created
+2019-12-29 19:49:01,997 - tests.tests - Test admin and test_user have been committed
+2019-12-29 19:49:02,009 - tests.tests - Homepage status: 200. Test is done.
+2019-12-29 19:49:02,027 - tests.tests - Test databased has been deleted
+--------------------------------------------------------------------------------------
+2019-12-29 19:49:02,139 - tests.tests - Test database has been created
+2019-12-29 19:49:02,247 - tests.tests - admin has been created
+2019-12-29 19:49:02,359 - tests.tests - test_user has been created
+2019-12-29 19:49:02,372 - tests.tests - Test admin and test_user have been committed
+2019-12-29 19:49:02,461 - tests.tests - Login page status: 200. Test is done.
+2019-12-29 19:49:02,482 - tests.tests - Test databased has been deleted
+--------------------------------------------------------------------------------------
+2019-12-29 19:49:02,610 - tests.tests - Test database has been created
+2019-12-29 19:49:02,726 - tests.tests - admin has been created
+2019-12-29 19:49:02,834 - tests.tests - test_user has been created
+2019-12-29 19:49:02,849 - tests.tests - Test admin and test_user have been committed
+2019-12-29 19:49:02,852 - tests.tests - No access to logout before logging in, status: 302
+2019-12-29 19:49:02,852 - tests.tests - Redirected to login page  status: 302. Test is done
+2019-12-29 19:49:02,867 - tests.tests - Test databased has been deleted
+--------------------------------------------------------------------------------------
+2020-01-03 17:02:19,936 - tests.test_errors - 403 forbidden status: 403. Test is done.
+2020-01-03 17:02:20,350 - tests.test_errors - Access to /empty is denied.It doesn't exist, status: 404. Test is done
+2020-01-03 17:02:20,751 - tests.test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-03 17:02:26,654 - tests.test_views - Login page status: 200. Test is done.
+2020-01-03 17:02:27,043 - tests.test_views - No access to logout before logging in, status: 302
+2020-01-03 17:02:27,043 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:02:27,496 - tests.test_views - register page status: 200. Test is done.
+2020-01-03 17:02:27,894 - tests.test_views - No access to home.admin.dashboard, status: 302
+2020-01-03 17:02:27,895 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:02:28,278 - tests.test_views - No access to home.dashboard, status: 302
+2020-01-03 17:02:28,279 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:02:28,704 - tests.test_views - Homepage status: 200. Test is done.
+2020-01-03 17:04:44,698 - tests.test_errors - 403 forbidden status: 403. Test is done.
+2020-01-03 17:04:45,092 - tests.test_errors - Access to /empty is denied.It doesn't exist, status: 404. Test is done
+2020-01-03 17:04:45,484 - tests.test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-03 17:04:51,305 - tests.test_views - Login page status: 200. Test is done.
+2020-01-03 17:04:51,686 - tests.test_views - No access to logout before logging in, status: 302
+2020-01-03 17:04:51,686 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:04:52,134 - tests.test_views - register page status: 200. Test is done.
+2020-01-03 17:04:52,531 - tests.test_views - No access to home.admin.dashboard, status: 302
+2020-01-03 17:04:52,532 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:04:52,906 - tests.test_views - No access to home.dashboard, status: 302
+2020-01-03 17:04:52,906 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:04:53,301 - tests.test_views - Homepage status: 200. Test is done.
+2020-01-03 17:07:15,007 - tests.test_errors - 403 forbidden status: 403. Test is done.
+2020-01-03 17:07:15,407 - tests.test_errors - Access to /empty is denied.It doesn't exist, status: 404. Test is done
+2020-01-03 17:07:15,851 - tests.test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-03 17:07:19,624 - tests.test_models - Department TestDepartment has been committed
+2020-01-03 17:07:20,401 - tests.test_models - Department TestDepartment has been committed
+2020-01-03 17:07:21,653 - tests.test_views - Login page status: 200. Test is done.
+2020-01-03 17:07:22,081 - tests.test_views - No access to logout before logging in, status: 302
+2020-01-03 17:07:22,081 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:07:22,533 - tests.test_views - register page status: 200. Test is done.
+2020-01-03 17:07:22,902 - tests.test_views - No access to home.admin.dashboard, status: 302
+2020-01-03 17:07:22,902 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:07:23,300 - tests.test_views - No access to home.dashboard, status: 302
+2020-01-03 17:07:23,300 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:07:23,709 - tests.test_views - Homepage status: 200. Test is done.
+2020-01-03 17:08:15,475 - tests.test_errors - 403 forbidden status: 403. Test is done.
+2020-01-03 17:08:15,875 - tests.test_errors - Access to /empty is denied.It doesn't exist, status: 404. Test is done
+2020-01-03 17:08:16,282 - tests.test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-03 17:08:20,150 - tests.test_models - Department TestDepartment has been committed
+2020-01-03 17:08:20,927 - tests.test_models - Department TestDepartment has been committed
+2020-01-03 17:08:22,171 - tests.test_views - Login page status: 200. Test is done.
+2020-01-03 17:08:22,543 - tests.test_views - No access to logout before logging in, status: 302
+2020-01-03 17:08:22,544 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:08:22,999 - tests.test_views - register page status: 200. Test is done.
+2020-01-03 17:08:23,409 - tests.test_views - No access to home.admin.dashboard, status: 302
+2020-01-03 17:08:23,410 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:08:23,800 - tests.test_views - No access to home.dashboard, status: 302
+2020-01-03 17:08:23,800 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:08:24,199 - tests.test_views - Homepage status: 200. Test is done.
+2020-01-03 17:08:43,541 - tests.test_errors - 403 forbidden status: 403. Test is done.
+2020-01-03 17:08:43,943 - tests.test_errors - Access to /empty is denied.It doesn't exist, status: 404. Test is done
+2020-01-03 17:08:44,339 - tests.test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-03 17:08:48,263 - tests.test_models - Department TestDepartment has been committed
+2020-01-03 17:08:49,044 - tests.test_models - Department TestDepartment has been committed
+2020-01-03 17:08:50,296 - tests.test_views - Login page status: 200. Test is done.
+2020-01-03 17:08:50,698 - tests.test_views - No access to logout before logging in, status: 302
+2020-01-03 17:08:50,699 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:08:51,135 - tests.test_views - register page status: 200. Test is done.
+2020-01-03 17:08:51,519 - tests.test_views - No access to home.admin.dashboard, status: 302
+2020-01-03 17:08:51,519 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:08:51,897 - tests.test_views - No access to home.dashboard, status: 302
+2020-01-03 17:08:51,897 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:08:52,282 - tests.test_views - Homepage status: 200. Test is done.
+2020-01-03 17:10:44,839 - tests.test_errors - 403 forbidden status: 403. Test is done.
+2020-01-03 17:10:45,233 - tests.test_errors - Access to /empty is denied.It doesn't exist, status: 404. Test is done
+2020-01-03 17:10:45,636 - tests.test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-03 17:10:49,444 - tests.test_models - Department TestDep has been tested
+2020-01-03 17:10:50,230 - tests.test_models - Department TestDep has been tested
+2020-01-03 17:10:52,286 - tests.test_views - Login page status: 200. Test is done.
+2020-01-03 17:10:53,552 - tests.test_views - No access to logout before logging in, status: 302
+2020-01-03 17:10:53,552 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:10:54,948 - tests.test_views - register page status: 200. Test is done.
+2020-01-03 17:10:56,264 - tests.test_views - No access to home.admin.dashboard, status: 302
+2020-01-03 17:10:56,264 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:10:57,436 - tests.test_views - No access to home.dashboard, status: 302
+2020-01-03 17:10:57,436 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:10:58,590 - tests.test_views - Homepage status: 200. Test is done.
+2020-01-03 17:11:19,669 - tests.test_errors - 403 forbidden status: 403. Test is done.
+2020-01-03 17:11:20,259 - tests.test_errors - Access to /empty is denied.It doesn't exist, status: 404. Test is done
+2020-01-03 17:11:21,006 - tests.test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-03 17:11:26,705 - tests.test_models - Department TestDep has been tested
+2020-01-03 17:11:27,837 - tests.test_models - Department TestDep has been tested
+2020-01-03 17:11:29,656 - tests.test_views - Login page status: 200. Test is done.
+2020-01-03 17:11:30,210 - tests.test_views - No access to logout before logging in, status: 302
+2020-01-03 17:11:30,211 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:11:30,860 - tests.test_views - register page status: 200. Test is done.
+2020-01-03 17:11:31,440 - tests.test_views - No access to home.admin.dashboard, status: 302
+2020-01-03 17:11:31,440 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:11:32,045 - tests.test_views - No access to home.dashboard, status: 302
+2020-01-03 17:11:32,045 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:11:32,627 - tests.test_views - Homepage status: 200. Test is done.
+2020-01-03 17:29:35,997 - tests.test_errors - 403 forbidden status: 403. Test is done.
+2020-01-03 17:29:36,405 - tests.test_errors - Access to /empty is denied.It doesn't exist, status: 404. Test is done
+2020-01-03 17:29:36,807 - tests.test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-03 17:29:40,632 - tests.test_models - Department TestDep has been tested
+2020-01-03 17:29:41,409 - tests.test_models - Department TestDep has been tested
+2020-01-03 17:29:42,649 - tests.test_views - Login page status: 200. Test is done.
+2020-01-03 17:29:43,036 - tests.test_views - No access to logout before logging in, status: 302
+2020-01-03 17:29:43,036 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:29:43,480 - tests.test_views - register page status: 200. Test is done.
+2020-01-03 17:29:43,861 - tests.test_views - No access to home.admin.dashboard, status: 302
+2020-01-03 17:29:43,861 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:29:44,264 - tests.test_views - No access to home.dashboard, status: 302
+2020-01-03 17:29:44,264 - tests.test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:29:44,671 - tests.test_views - Homepage status: 200. Test is done.
+2020-01-03 17:42:24,185 - test_errors - 403 forbidden status: 403. Test is done.
+2020-01-03 17:42:24,580 - test_errors - Access to /empty is denied.It doesn't exist, status: 404. Test is done
+2020-01-03 17:42:25,005 - test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-03 17:42:28,992 - tests.test_models - Department TestDep has been tested
+2020-01-03 17:42:29,795 - test_models - Department TestDep has been tested
+2020-01-03 17:42:31,107 - test_views - Login page status: 200. Test is done.
+2020-01-03 17:42:31,494 - test_views - No access to logout before logging in, status: 302
+2020-01-03 17:42:31,495 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:42:32,021 - test_views - register page status: 200. Test is done.
+2020-01-03 17:42:32,438 - test_views - No access to home.admin.dashboard, status: 302
+2020-01-03 17:42:32,438 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:42:32,826 - test_views - No access to home.dashboard, status: 302
+2020-01-03 17:42:32,826 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:42:33,259 - test_views - Homepage status: 200. Test is done.
+2020-01-03 17:43:59,768 - test_errors - 403 forbidden status: 403. Test is done.
+2020-01-03 17:44:00,184 - test_errors - Access to /empty is denied.It doesn't exist, status: 404. Test is done
+2020-01-03 17:44:00,609 - test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-03 17:44:04,644 - tests.test_models - Department TestDep has been tested
+2020-01-03 17:44:05,434 - test_models - Department TestDep has been tested
+2020-01-03 17:44:06,815 - test_views - Login page status: 200. Test is done.
+2020-01-03 17:44:07,230 - test_views - No access to logout before logging in, status: 302
+2020-01-03 17:44:07,230 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:44:07,740 - test_views - register page status: 200. Test is done.
+2020-01-03 17:44:08,133 - test_views - No access to home.admin.dashboard, status: 302
+2020-01-03 17:44:08,134 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:44:08,547 - test_views - No access to home.dashboard, status: 302
+2020-01-03 17:44:08,548 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:44:08,983 - test_views - Homepage status: 200. Test is done.
+2020-01-03 17:54:32,444 - test_errors - 403 forbidden status: 403. Test is done.
+2020-01-03 17:54:32,870 - test_errors - Access to /empty is denied.It doesn't exist, status: 404. Test is done
+2020-01-03 17:54:33,330 - test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-03 17:54:37,464 - tests.test_models - Department TestDep has been tested
+2020-01-03 17:54:38,330 - test_models - Department TestDep has been tested
+2020-01-03 17:55:02,875 - test_errors - 403 forbidden status: 403. Test is done.
+2020-01-03 17:55:03,338 - test_errors - Access to /empty is denied.It doesn't exist, status: 404. Test is done
+2020-01-03 17:55:03,793 - test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-03 17:55:07,964 - tests.test_models - Department TestDep has been tested
+2020-01-03 17:55:08,799 - test_models - Department TestDep has been tested
+2020-01-03 17:55:10,158 - test_views - Login page status: 200. Test is done.
+2020-01-03 17:55:10,567 - test_views - No access to logout before logging in, status: 302
+2020-01-03 17:55:10,568 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:55:11,094 - test_views - register page status: 200. Test is done.
+2020-01-03 17:55:11,510 - test_views - No access to home.admin.dashboard, status: 302
+2020-01-03 17:55:11,511 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:55:11,911 - test_views - No access to home.dashboard, status: 302
+2020-01-03 17:55:11,911 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 17:55:12,331 - test_views - Homepage status: 200. Test is done.
+2020-01-03 19:08:38,170 - test_errors - 403 forbidden status: 403. Test is done.
+2020-01-03 19:08:38,641 - test_errors - Access to /empty is denied.It doesn't exist, status: 404. Test is done
+2020-01-03 19:08:39,086 - test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-03 19:08:43,455 - tests.test_models - Department TestDep has been tested
+2020-01-03 19:08:44,335 - test_models - Department TestDep has been tested
+2020-01-03 19:08:45,947 - test_views - Login page status: 200. Test is done.
+2020-01-03 19:08:46,499 - test_views - No access to logout before logging in, status: 302
+2020-01-03 19:08:46,499 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 19:08:47,309 - test_views - register page status: 200. Test is done.
+2020-01-03 19:08:47,864 - test_views - No access to home.admin.dashboard, status: 302
+2020-01-03 19:08:47,865 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 19:08:48,324 - test_views - No access to home.dashboard, status: 302
+2020-01-03 19:08:48,325 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 19:08:48,855 - test_views - Homepage status: 200. Test is done.
+2020-01-03 19:13:43,003 - test_errors - 403 forbidden status: 403. Test is done.
+2020-01-03 19:13:43,672 - test_errors - Access to /empty is denied.It doesn't exist, status: 404. Test is done
+2020-01-03 19:13:44,320 - test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-03 19:13:50,912 - tests.test_models - Department TestDep has been tested
+2020-01-03 19:13:52,280 - test_models - Department TestDep has been tested
+2020-01-03 19:13:54,417 - test_views - Login page status: 200. Test is done.
+2020-01-03 19:13:55,049 - test_views - No access to logout before logging in, status: 302
+2020-01-03 19:13:55,049 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 19:13:55,806 - test_views - register page status: 200. Test is done.
+2020-01-03 19:13:56,462 - test_views - No access to home.admin.dashboard, status: 302
+2020-01-03 19:13:56,462 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 19:13:57,093 - test_views - No access to home.dashboard, status: 302
+2020-01-03 19:13:57,093 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 19:13:57,780 - test_views - Homepage status: 200. Test is done.
+2020-01-03 19:18:01,856 - test_errors - 403 forbidden status: 403. Test is done.
+2020-01-03 19:18:02,501 - test_errors - Access to /empty is denied.It doesn't exist, status: 404. Test is done
+2020-01-03 19:18:03,191 - test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-03 19:18:08,317 - tests.test_models - Department TestDep has been tested
+2020-01-03 19:18:09,188 - test_models - Department TestDep has been tested
+2020-01-03 19:18:10,826 - test_views - Login page status: 200. Test is done.
+2020-01-03 19:18:11,305 - test_views - No access to logout before logging in, status: 302
+2020-01-03 19:18:11,305 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 19:18:11,949 - test_views - register page status: 200. Test is done.
+2020-01-03 19:18:12,401 - test_views - No access to home.admin.dashboard, status: 302
+2020-01-03 19:18:12,401 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 19:18:12,868 - test_views - No access to home.dashboard, status: 302
+2020-01-03 19:18:12,868 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 19:18:13,336 - test_views - Homepage status: 200. Test is done.
+2020-01-03 19:27:47,025 - test_errors - 403 forbidden status: 403. Test is done.
+2020-01-03 19:27:47,448 - test_errors - Access to /empty is denied.It doesn't exist, status: 404. Test is done
+2020-01-03 19:27:47,855 - test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-03 19:27:51,871 - tests.test_models - Department TestDep has been tested
+2020-01-03 19:27:52,657 - test_models - Department TestDep has been tested
+2020-01-03 19:27:54,010 - test_views - Login page status: 200. Test is done.
+2020-01-03 19:27:54,416 - test_views - No access to logout before logging in, status: 302
+2020-01-03 19:27:54,416 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 19:27:54,937 - test_views - register page status: 200. Test is done.
+2020-01-03 19:27:55,335 - test_views - No access to home.admin.dashboard, status: 302
+2020-01-03 19:27:55,336 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 19:27:55,723 - test_views - No access to home.dashboard, status: 302
+2020-01-03 19:27:55,723 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 19:27:56,134 - test_views - Homepage status: 200. Test is done.
+2020-01-03 21:37:31,777 - test_errors - 403 forbidden status: 403. Test is done.
+2020-01-03 21:37:32,174 - test_errors - Access to /empty is denied.It doesn't exist, status: 404. Test is done
+2020-01-03 21:37:32,559 - test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-03 21:37:36,581 - tests.test_models - Department TestDep has been tested
+2020-01-03 21:37:37,361 - test_models - Department TestDep has been tested
+2020-01-03 23:58:57,505 - test_errors - 403 forbidden status: 403. Test is done.
+2020-01-03 23:58:57,902 - test_errors - Access to /empty is denied.It doesn't exist, status: 404. Test is done
+2020-01-03 23:58:58,311 - test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-03 23:59:02,129 - tests.test_models - Department TestDep has been tested
+2020-01-03 23:59:02,923 - test_models - Department TestDep has been tested
+2020-01-03 23:59:04,157 - test_views - Login page status: 200. Test is done.
+2020-01-03 23:59:04,529 - test_views - No access to logout before logging in, status: 302
+2020-01-03 23:59:04,529 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 23:59:04,981 - test_views - register page status: 200. Test is done.
+2020-01-03 23:59:05,361 - test_views - No access to home.admin.dashboard, status: 302
+2020-01-03 23:59:05,361 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 23:59:05,736 - test_views - No access to home.dashboard, status: 302
+2020-01-03 23:59:05,737 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-03 23:59:06,139 - test_views - Homepage status: 200. Test is done.
+2020-01-04 00:23:11,868 - test_errors - 403 forbidden status: 403. Test is done.
+2020-01-04 00:23:12,123 - test_errors - Access to /empty is denied.It doesn't exist, status: 404. Test is done
+2020-01-04 00:23:12,382 - test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-04 00:23:14,908 - tests.test_models - Department TestDep has been tested
+2020-01-04 00:23:15,396 - test_models - Department TestDep has been tested
+2020-01-04 00:23:16,220 - test_views - Login page status: 200. Test is done.
+2020-01-04 00:23:16,463 - test_views - No access to logout before logging in, status: 302
+2020-01-04 00:23:16,464 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-04 00:23:16,807 - test_views - register page status: 200. Test is done.
+2020-01-04 00:23:17,049 - test_views - No access to home.admin.dashboard, status: 302
+2020-01-04 00:23:17,050 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-04 00:23:17,289 - test_views - No access to home.dashboard, status: 302
+2020-01-04 00:23:17,290 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-04 00:23:17,548 - test_views - Homepage status: 200. Test is done.

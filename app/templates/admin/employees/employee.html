@@ -1,0 +1,36 @@
+{% import "bootstrap/wtf.html" as wtf %}
+{% extends "base.html" %}
+
+{% block title %}
+     {% if edit_employee %}
+         Edit Employee
+    {% else %}
+        Add Employee
+    {% endif %}
+{% endblock %}
+{% block body %}
+<div class="content-section">
+ <div class="outer">
+    <div class="middle">
+      <div class="inner">
+        <div class="center">
+            <h1> Edit data to employee</h1>
+            <br/>
+            <p>
+                Select data to edit
+                <span style="color: #6495ED;">
+                    {% if title == 'Edit Employee' %}
+                        {{ employee.first_name }} {{ employee.last_name }}
+                    {% else %}
+                    Unknown
+                    {% endif %}
+                </span>
+            </p>
+            <br/>
+            {{ wtf.quick_form(form) }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
