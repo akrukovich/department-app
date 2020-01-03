@@ -1,10 +1,10 @@
 language: python
 python:
   - "3.7"
-services:
- - mysql
-before_install:
-  - mysql -e 'CREATE DATABASE IF NOT EXISTS dep_db_test;'
+# services:
+#  - mysql
+# before_install:
+#   - mysql -e 'CREATE DATABASE IF NOT EXISTS dep_db_test;'
 install:
   - pip install -r requirements.txt
 script:
