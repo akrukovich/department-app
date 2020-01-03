@@ -33,7 +33,7 @@ def create_app(config_name):
     app.config.from_object(app_config[config_name])
 #     app.config.from_pyfile('config.py')
     app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:@127.0.0.1/dep_db_test'
-    app.config['SECRET_KEY'] = ''  
+    app.config['SECRET_KEY'] = 'DasdDSd'  
 
     Bootstrap(app)
     db.init_app(app)
