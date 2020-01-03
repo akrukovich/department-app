@@ -4,7 +4,7 @@ from datetime import datetime
 # Local imports
 from app.admin.forms import DepartmentForm, EmployeeEditForm, department_query, get_pk
 from app.auth.forms import RegistrationForm, LoginForm
-from app.models import Employee, Department
+from app.models import Department
 from loggers import get_logger
 from app.util import TestBase
 

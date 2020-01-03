@@ -23,6 +23,9 @@ class TestBase(TestCase):
         # Pass in test configurations
         config_name = 'testing'
         app = create_app(config_name)
+
+
+        # app.config.update(SQLALCHEMY_DATABASE_URI='mysql://root:Ak12345678@localhost/dep_db_test')
         app.config.update(SQLALCHEMY_DATABASE_URI='mysql://root:@127.0.0.1/dep_db_test')
 
         return app

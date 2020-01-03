@@ -1,0 +1,3533 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">33%</span>
+        </h1>
+
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+
+<div id="index">
+    <table class="index">
+        <thead>
+            
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>70267</td>
+                <td>46811</td>
+                <td>150</td>
+                
+                <td class="right" data-ratio="23456 70267">33%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/__init__.py</a></td>
+                <td>10</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 10">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_autogenerate___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/autogenerate/__init__.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="4 4">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_autogenerate_api_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/autogenerate/api.py</a></td>
+                <td>120</td>
+                <td>92</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="28 120">23%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_autogenerate_compare_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/autogenerate/compare.py</a></td>
+                <td>343</td>
+                <td>299</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="44 343">13%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_autogenerate_render_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/autogenerate/render.py</a></td>
+                <td>358</td>
+                <td>303</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="55 358">15%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_autogenerate_rewriter_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/autogenerate/rewriter.py</a></td>
+                <td>58</td>
+                <td>42</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="16 58">28%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_command_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/command.py</a></td>
+                <td>173</td>
+                <td>155</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="18 173">10%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_config_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/config.py</a></td>
+                <td>108</td>
+                <td>77</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="31 108">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_context_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/context.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_ddl___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/ddl/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_ddl_base_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/ddl/base.py</a></td>
+                <td>86</td>
+                <td>43</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="43 86">50%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_ddl_impl_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/ddl/impl.py</a></td>
+                <td>152</td>
+                <td>102</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="50 152">33%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_ddl_mssql_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/ddl/mssql.py</a></td>
+                <td>83</td>
+                <td>54</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="29 83">35%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_ddl_mysql_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/ddl/mysql.py</a></td>
+                <td>116</td>
+                <td>82</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="34 116">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_ddl_oracle_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/ddl/oracle.py</a></td>
+                <td>34</td>
+                <td>15</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="19 34">56%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_ddl_postgresql_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/ddl/postgresql.py</a></td>
+                <td>77</td>
+                <td>53</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="24 77">31%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_ddl_sqlite_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/ddl/sqlite.py</a></td>
+                <td>34</td>
+                <td>23</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 34">32%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_op_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/op.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_operations___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/operations/__init__.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="4 4">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_operations_base_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/operations/base.py</a></td>
+                <td>82</td>
+                <td>24</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="58 82">71%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_operations_batch_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/operations/batch.py</a></td>
+                <td>215</td>
+                <td>176</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="39 215">18%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_operations_ops_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/operations/ops.py</a></td>
+                <td>508</td>
+                <td>314</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="194 508">38%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_operations_schemaobj_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/operations/schemaobj.py</a></td>
+                <td>84</td>
+                <td>67</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="17 84">20%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_operations_toimpl_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/operations/toimpl.py</a></td>
+                <td>63</td>
+                <td>48</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="15 63">24%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_runtime___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/runtime/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_runtime_environment_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/runtime/environment.py</a></td>
+                <td>96</td>
+                <td>69</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="27 96">28%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_runtime_migration_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/runtime/migration.py</a></td>
+                <td>341</td>
+                <td>264</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="77 341">23%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_script___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/script/__init__.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_script_base_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/script/base.py</a></td>
+                <td>300</td>
+                <td>243</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="57 300">19%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_script_revision_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/script/revision.py</a></td>
+                <td>411</td>
+                <td>350</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="61 411">15%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_util___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/util/__init__.py</a></td>
+                <td>7</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 7">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_util_compat_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/util/compat.py</a></td>
+                <td>108</td>
+                <td>68</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="40 108">37%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_util_exc_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/util/exc.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_util_langhelpers_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/util/langhelpers.py</a></td>
+                <td>192</td>
+                <td>83</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="109 192">57%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_util_messaging_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/util/messaging.py</a></td>
+                <td>68</td>
+                <td>44</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="24 68">35%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_util_pyfiles_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/util/pyfiles.py</a></td>
+                <td>54</td>
+                <td>40</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="14 54">26%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_alembic_util_sqla_compat_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/alembic/util/sqla_compat.py</a></td>
+                <td>99</td>
+                <td>54</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="45 99">45%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_babel___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/babel/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_babel__compat_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/babel/_compat.py</a></td>
+                <td>51</td>
+                <td>26</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="25 51">49%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_babel_core_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/babel/core.py</a></td>
+                <td>290</td>
+                <td>186</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="104 290">36%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_babel_dates_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/babel/dates.py</a></td>
+                <td>687</td>
+                <td>603</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="84 687">12%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_babel_localedata_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/babel/localedata.py</a></td>
+                <td>112</td>
+                <td>87</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="25 112">22%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_babel_localtime___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/babel/localtime/__init__.py</a></td>
+                <td>40</td>
+                <td>15</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="25 40">62%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_babel_localtime__unix_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/babel/localtime/_unix.py</a></td>
+                <td>73</td>
+                <td>55</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="18 73">25%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_babel_numbers_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/babel/numbers.py</a></td>
+                <td>346</td>
+                <td>288</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="58 346">17%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_babel_plural_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/babel/plural.py</a></td>
+                <td>278</td>
+                <td>181</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="97 278">35%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_babel_support_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/babel/support.py</a></td>
+                <td>254</td>
+                <td>164</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="90 254">35%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_babel_util_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/babel/util.py</a></td>
+                <td>109</td>
+                <td>74</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="35 109">32%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_blinker___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/blinker/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_blinker__saferef_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/blinker/_saferef.py</a></td>
+                <td>83</td>
+                <td>61</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="22 83">27%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_blinker__utilities_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/blinker/_utilities.py</a></td>
+                <td>100</td>
+                <td>65</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="35 100">35%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_blinker_base_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/blinker/base.py</a></td>
+                <td>160</td>
+                <td>113</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="47 160">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_click___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/click/__init__.py</a></td>
+                <td>13</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 13">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_click__compat_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/click/_compat.py</a></td>
+                <td>433</td>
+                <td>316</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="117 433">27%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_click__unicodefun_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/click/_unicodefun.py</a></td>
+                <td>69</td>
+                <td>59</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 69">14%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_click_core_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/click/core.py</a></td>
+                <td>877</td>
+                <td>622</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="255 877">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_click_decorators_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/click/decorators.py</a></td>
+                <td>147</td>
+                <td>87</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="60 147">41%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_click_exceptions_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/click/exceptions.py</a></td>
+                <td>115</td>
+                <td>82</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="33 115">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_click_formatting_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/click/formatting.py</a></td>
+                <td>134</td>
+                <td>112</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="22 134">16%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_click_globals_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/click/globals.py</a></td>
+                <td>18</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 18">72%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_click_parser_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/click/parser.py</a></td>
+                <td>236</td>
+                <td>203</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="33 236">14%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_click_termui_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/click/termui.py</a></td>
+                <td>195</td>
+                <td>147</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="48 195">25%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_click_types_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/click/types.py</a></td>
+                <td>318</td>
+                <td>193</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="125 318">39%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_click_utils_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/click/utils.py</a></td>
+                <td>179</td>
+                <td>124</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="55 179">31%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_dominate___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/dominate/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_dominate__version_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/dominate/_version.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_dominate_document_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/dominate/document.py</a></td>
+                <td>37</td>
+                <td>20</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="17 37">46%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_dominate_dom1core_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/dominate/dom1core.py</a></td>
+                <td>23</td>
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 23">48%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_dominate_dom_tag_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/dominate/dom_tag.py</a></td>
+                <td>228</td>
+                <td>172</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="56 228">25%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_dominate_tags_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/dominate/tags.py</a></td>
+                <td>264</td>
+                <td>21</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="243 264">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_dominate_util_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/dominate/util.py</a></td>
+                <td>73</td>
+                <td>45</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="28 73">38%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask/__init__.py</a></td>
+                <td>46</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="46 46">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask__compat_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask/_compat.py</a></td>
+                <td>81</td>
+                <td>47</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="34 81">42%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_app_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask/app.py</a></td>
+                <td>635</td>
+                <td>329</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="306 635">48%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_blueprints_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask/blueprints.py</a></td>
+                <td>179</td>
+                <td>71</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="108 179">60%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_cli_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask/cli.py</a></td>
+                <td>427</td>
+                <td>309</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="118 427">28%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_config_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask/config.py</a></td>
+                <td>91</td>
+                <td>50</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="41 91">45%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_ctx_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask/ctx.py</a></td>
+                <td>159</td>
+                <td>119</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="40 159">25%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_globals_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask/globals.py</a></td>
+                <td>27</td>
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="15 27">56%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_helpers_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask/helpers.py</a></td>
+                <td>373</td>
+                <td>244</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="129 373">35%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_json___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask/json/__init__.py</a></td>
+                <td>130</td>
+                <td>97</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="33 130">25%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_json_tag_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask/json/tag.py</a></td>
+                <td>129</td>
+                <td>42</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="87 129">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_logging_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask/logging.py</a></td>
+                <td>35</td>
+                <td>22</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 35">37%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_sessions_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask/sessions.py</a></td>
+                <td>127</td>
+                <td>75</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="52 127">41%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_signals_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask/signals.py</a></td>
+                <td>32</td>
+                <td>17</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="15 32">47%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_templating_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask/templating.py</a></td>
+                <td>86</td>
+                <td>60</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="26 86">30%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_wrappers_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask/wrappers.py</a></td>
+                <td>39</td>
+                <td>17</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="22 39">56%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_bootstrap___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_bootstrap/__init__.py</a></td>
+                <td>82</td>
+                <td>24</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="58 82">71%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_bootstrap_forms_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_bootstrap/forms.py</a></td>
+                <td>88</td>
+                <td>62</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="26 88">30%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_login___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_login/__init__.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 7">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_login__compat_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_login/_compat.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>16</td>
+                
+                <td class="right" data-ratio="4 4">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_login_config_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_login/config.py</a></td>
+                <td>14</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="14 14">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_login_login_manager_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_login/login_manager.py</a></td>
+                <td>178</td>
+                <td>126</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="52 178">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_login_mixins_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_login/mixins.py</a></td>
+                <td>32</td>
+                <td>18</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="14 32">44%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_login_signals_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_login/signals.py</a></td>
+                <td>13</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 13">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_login_utils_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_login/utils.py</a></td>
+                <td>126</td>
+                <td>95</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="31 126">25%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_migrate___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_migrate/__init__.py</a></td>
+                <td>220</td>
+                <td>94</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="126 220">57%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_script___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_script/__init__.py</a></td>
+                <td>177</td>
+                <td>109</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="68 177">38%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_script__compat_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_script/_compat.py</a></td>
+                <td>73</td>
+                <td>42</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="31 73">42%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_script_cli_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_script/cli.py</a></td>
+                <td>49</td>
+                <td>43</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 49">12%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_script_commands_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_script/commands.py</a></td>
+                <td>201</td>
+                <td>149</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="52 201">26%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_sqlalchemy___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py</a></td>
+                <td>489</td>
+                <td>311</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="178 489">36%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_sqlalchemy__compat_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_sqlalchemy/_compat.py</a></td>
+                <td>16</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="9 16">56%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_wtf___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_wtf/__init__.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 6">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_wtf__compat_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_wtf/_compat.py</a></td>
+                <td>20</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="12 20">60%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_wtf_csrf_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_wtf/csrf.py</a></td>
+                <td>141</td>
+                <td>116</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="25 141">18%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_wtf_form_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_wtf/form.py</a></td>
+                <td>82</td>
+                <td>50</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="32 82">39%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_wtf_i18n_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_wtf/i18n.py</a></td>
+                <td>42</td>
+                <td>35</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 42">17%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_wtf_recaptcha___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_wtf/recaptcha/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_wtf_recaptcha_fields_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_wtf/recaptcha/fields.py</a></td>
+                <td>10</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="8 10">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_wtf_recaptcha_validators_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_wtf/recaptcha/validators.py</a></td>
+                <td>45</td>
+                <td>29</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="16 45">36%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_flask_wtf_recaptcha_widgets_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/flask_wtf/recaptcha/widgets.py</a></td>
+                <td>26</td>
+                <td>16</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 26">38%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_itsdangerous___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/itsdangerous/__init__.py</a></td>
+                <td>21</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="21 21">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_itsdangerous__compat_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/itsdangerous/_compat.py</a></td>
+                <td>22</td>
+                <td>11</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 22">50%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_itsdangerous__json_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/itsdangerous/_json.py</a></td>
+                <td>11</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 11">64%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_itsdangerous_encoding_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/itsdangerous/encoding.py</a></td>
+                <td>27</td>
+                <td>13</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="14 27">52%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_itsdangerous_exc_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/itsdangerous/exc.py</a></td>
+                <td>31</td>
+                <td>15</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="16 31">52%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_itsdangerous_jws_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/itsdangerous/jws.py</a></td>
+                <td>120</td>
+                <td>83</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="37 120">31%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_itsdangerous_serializer_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/itsdangerous/serializer.py</a></td>
+                <td>90</td>
+                <td>66</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="24 90">27%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_itsdangerous_signer_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/itsdangerous/signer.py</a></td>
+                <td>85</td>
+                <td>56</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="29 85">34%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_itsdangerous_timed_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/itsdangerous/timed.py</a></td>
+                <td>79</td>
+                <td>56</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="23 79">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_itsdangerous_url_safe_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/itsdangerous/url_safe.py</a></td>
+                <td>37</td>
+                <td>24</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 37">35%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/__init__.py</a></td>
+                <td>18</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="18 18">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2__compat_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/_compat.py</a></td>
+                <td>67</td>
+                <td>33</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="34 67">51%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2__identifier_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/_identifier.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2_asyncfilters_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/asyncfilters.py</a></td>
+                <td>79</td>
+                <td>42</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="37 79">47%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2_asyncsupport_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/asyncsupport.py</a></td>
+                <td>169</td>
+                <td>105</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="64 169">38%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2_bccache_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/bccache.py</a></td>
+                <td>161</td>
+                <td>118</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="43 161">27%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2_compiler_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/compiler.py</a></td>
+                <td>1142</td>
+                <td>991</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="151 1142">13%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2_defaults_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/defaults.py</a></td>
+                <td>20</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="20 20">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2_environment_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/environment.py</a></td>
+                <td>515</td>
+                <td>369</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="146 515">28%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2_exceptions_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/exceptions.py</a></td>
+                <td>70</td>
+                <td>48</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="22 70">31%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2_ext_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/ext.py</a></td>
+                <td>302</td>
+                <td>240</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="62 302">21%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2_filters_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/filters.py</a></td>
+                <td>384</td>
+                <td>293</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="91 384">24%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2_idtracking_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/idtracking.py</a></td>
+                <td>204</td>
+                <td>155</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="49 204">24%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2_lexer_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/lexer.py</a></td>
+                <td>351</td>
+                <td>230</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="121 351">34%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2_loaders_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/loaders.py</a></td>
+                <td>223</td>
+                <td>170</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="53 223">24%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2_nodes_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/nodes.py</a></td>
+                <td>453</td>
+                <td>241</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="212 453">47%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2_optimizer_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/optimizer.py</a></td>
+                <td>17</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="9 17">53%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2_parser_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/parser.py</a></td>
+                <td>644</td>
+                <td>585</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="59 644">9%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2_runtime_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/runtime.py</a></td>
+                <td>413</td>
+                <td>292</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="121 413">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2_tests_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/tests.py</a></td>
+                <td>51</td>
+                <td>25</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="26 51">51%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2_utils_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/utils.py</a></td>
+                <td>306</td>
+                <td>205</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="101 306">33%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_jinja2_visitor_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/jinja2/visitor.py</a></td>
+                <td>40</td>
+                <td>31</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="9 40">22%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_mako___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/mako/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_mako__ast_util_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/mako/_ast_util.py</a></td>
+                <td>538</td>
+                <td>437</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="101 538">19%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_mako_ast_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/mako/ast.py</a></td>
+                <td>87</td>
+                <td>72</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="15 87">17%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_mako_cache_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/mako/cache.py</a></td>
+                <td>63</td>
+                <td>36</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="27 63">43%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_mako_codegen_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/mako/codegen.py</a></td>
+                <td>576</td>
+                <td>511</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="65 576">11%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_mako_compat_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/mako/compat.py</a></td>
+                <td>128</td>
+                <td>76</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="52 128">41%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_mako_exceptions_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/mako/exceptions.py</a></td>
+                <td>149</td>
+                <td>111</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="38 149">26%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_mako_ext___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/mako/ext/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_mako_ext_pygmentplugin_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/mako/ext/pygmentplugin.py</a></td>
+                <td>41</td>
+                <td>11</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="30 41">73%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_mako_filters_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/mako/filters.py</a></td>
+                <td>88</td>
+                <td>47</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="41 88">47%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_mako_lexer_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/mako/lexer.py</a></td>
+                <td>262</td>
+                <td>238</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="24 262">9%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_mako_parsetree_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/mako/parsetree.py</a></td>
+                <td>260</td>
+                <td>161</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="99 260">38%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_mako_pygen_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/mako/pygen.py</a></td>
+                <td>136</td>
+                <td>118</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="18 136">13%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_mako_pyparser_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/mako/pyparser.py</a></td>
+                <td>131</td>
+                <td>96</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="35 131">27%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_mako_runtime_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/mako/runtime.py</a></td>
+                <td>424</td>
+                <td>321</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="103 424">24%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_mako_template_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/mako/template.py</a></td>
+                <td>249</td>
+                <td>201</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="48 249">19%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_mako_util_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/mako/util.py</a></td>
+                <td>223</td>
+                <td>170</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="53 223">24%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_markupsafe___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/markupsafe/__init__.py</a></td>
+                <td>164</td>
+                <td>92</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="72 164">44%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_markupsafe__compat_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/markupsafe/_compat.py</a></td>
+                <td>18</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 18">56%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/__init__.py</a></td>
+                <td>26</td>
+                <td>17</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="9 26">35%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_filter_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/filter.py</a></td>
+                <td>24</td>
+                <td>14</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 24">42%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_filters___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/filters/__init__.py</a></td>
+                <td>159</td>
+                <td>124</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="35 159">22%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_formatter_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/formatter.py</a></td>
+                <td>29</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="23 29">79%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_formatters___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/formatters/__init__.py</a></td>
+                <td>85</td>
+                <td>59</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="26 85">31%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_formatters__mapping_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/formatters/_mapping.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>27</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_formatters_html_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/formatters/html.py</a></td>
+                <td>363</td>
+                <td>257</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="106 363">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexer_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexer.py</a></td>
+                <td>475</td>
+                <td>373</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="102 475">21%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexers___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexers/__init__.py</a></td>
+                <td>191</td>
+                <td>157</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="34 191">18%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexers__mapping_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexers/_mapping.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>25</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexers_actionscript_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexers/actionscript.py</a></td>
+                <td>32</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="29 32">91%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexers_agile_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexers/agile.py</a></td>
+                <td>12</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="12 12">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexers_css_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexers/css.py</a></td>
+                <td>73</td>
+                <td>15</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="58 73">79%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexers_d_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexers/d.py</a></td>
+                <td>21</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="21 21">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexers_data_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexers/data.py</a></td>
+                <td>147</td>
+                <td>87</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="60 147">41%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexers_factor_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexers/factor.py</a></td>
+                <td>23</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="23 23">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexers_html_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexers/html.py</a></td>
+                <td>81</td>
+                <td>13</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="68 81">84%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexers_iolang_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexers/iolang.py</a></td>
+                <td>10</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 10">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexers_javascript_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexers/javascript.py</a></td>
+                <td>124</td>
+                <td>30</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="94 124">76%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexers_jvm_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexers/jvm.py</a></td>
+                <td>158</td>
+                <td>22</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="136 158">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexers_lisp_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexers/lisp.py</a></td>
+                <td>266</td>
+                <td>119</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="147 266">55%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexers_perl_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexers/perl.py</a></td>
+                <td>129</td>
+                <td>90</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="39 129">30%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexers_php_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexers/php.py</a></td>
+                <td>55</td>
+                <td>27</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="28 55">51%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexers_python_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexers/python.py</a></td>
+                <td>121</td>
+                <td>53</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="68 121">56%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexers_ruby_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexers/ruby.py</a></td>
+                <td>109</td>
+                <td>63</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="46 109">42%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexers_scripting_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexers/scripting.py</a></td>
+                <td>230</td>
+                <td>95</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="135 230">59%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexers_tcl_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexers/tcl.py</a></td>
+                <td>17</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="16 17">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexers_web_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexers/web.py</a></td>
+                <td>10</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 10">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_lexers_webmisc_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/lexers/webmisc.py</a></td>
+                <td>233</td>
+                <td>141</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="92 233">39%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_modeline_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/modeline.py</a></td>
+                <td>20</td>
+                <td>14</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 20">30%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_plugin_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/plugin.py</a></td>
+                <td>23</td>
+                <td>13</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 23">43%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_regexopt_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/regexopt.py</a></td>
+                <td>43</td>
+                <td>32</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 43">26%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_style_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/style.py</a></td>
+                <td>96</td>
+                <td>23</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="73 96">76%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_styles___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/styles/__init__.py</a></td>
+                <td>27</td>
+                <td>14</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 27">48%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_styles_default_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/styles/default.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 7">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_token_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/token.py</a></td>
+                <td>59</td>
+                <td>14</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="45 59">76%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_unistring_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/unistring.py</a></td>
+                <td>65</td>
+                <td>6</td>
+                <td>57</td>
+                
+                <td class="right" data-ratio="59 65">91%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pygments_util_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pygments/util.py</a></td>
+                <td>207</td>
+                <td>141</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="66 207">32%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pytz___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pytz/__init__.py</a></td>
+                <td>196</td>
+                <td>93</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="103 196">53%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pytz_exceptions_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pytz/exceptions.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 6">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pytz_lazy_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pytz/lazy.py</a></td>
+                <td>100</td>
+                <td>42</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="58 100">58%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pytz_tzfile_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pytz/tzfile.py</a></td>
+                <td>77</td>
+                <td>11</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="66 77">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_pytz_tzinfo_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/pytz/tzinfo.py</a></td>
+                <td>178</td>
+                <td>104</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="74 178">42%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/__init__.py</a></td>
+                <td>123</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="123 123">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_connectors___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/connectors/__init__.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_connectors_zxJDBC_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/connectors/zxJDBC.py</a></td>
+                <td>30</td>
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="18 30">60%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_dialects___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/dialects/__init__.py</a></td>
+                <td>23</td>
+                <td>17</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 23">26%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_dialects_postgresql___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/dialects/postgresql/__init__.py</a></td>
+                <td>56</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="56 56">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_dialects_postgresql_array_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/dialects/postgresql/array.py</a></td>
+                <td>79</td>
+                <td>40</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="39 79">49%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_dialects_postgresql_base_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/dialects/postgresql/base.py</a></td>
+                <td>984</td>
+                <td>735</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="249 984">25%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_dialects_postgresql_dml_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/dialects/postgresql/dml.py</a></td>
+                <td>59</td>
+                <td>36</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="23 59">39%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_dialects_postgresql_ext_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/dialects/postgresql/ext.py</a></td>
+                <td>54</td>
+                <td>36</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="18 54">33%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_dialects_postgresql_hstore_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/dialects/postgresql/hstore.py</a></td>
+                <td>139</td>
+                <td>72</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="67 139">48%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_dialects_postgresql_json_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/dialects/postgresql/json.py</a></td>
+                <td>66</td>
+                <td>29</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="37 66">56%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_dialects_postgresql_pg8000_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/dialects/postgresql/pg8000.py</a></td>
+                <td>151</td>
+                <td>90</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="61 151">40%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_dialects_postgresql_psycopg2_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py</a></td>
+                <td>258</td>
+                <td>175</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="83 258">32%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_dialects_postgresql_psycopg2cffi_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/dialects/postgresql/psycopg2cffi.py</a></td>
+                <td>15</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 15">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_dialects_postgresql_pygresql_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/dialects/postgresql/pygresql.py</a></td>
+                <td>165</td>
+                <td>116</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="49 165">30%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_dialects_postgresql_pypostgresql_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/dialects/postgresql/pypostgresql.py</a></td>
+                <td>43</td>
+                <td>16</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="27 43">63%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_dialects_postgresql_ranges_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/dialects/postgresql/ranges.py</a></td>
+                <td>47</td>
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="35 47">74%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_dialects_postgresql_zxjdbc_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/dialects/postgresql/zxjdbc.py</a></td>
+                <td>22</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="14 22">64%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_engine___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/engine/__init__.py</a></td>
+                <td>37</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="29 37">78%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_engine_base_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/engine/base.py</a></td>
+                <td>760</td>
+                <td>616</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="144 760">19%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_engine_default_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/engine/default.py</a></td>
+                <td>704</td>
+                <td>533</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="171 704">24%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_engine_interfaces_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/engine/interfaces.py</a></td>
+                <td>156</td>
+                <td>63</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="93 156">60%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_engine_reflection_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/engine/reflection.py</a></td>
+                <td>268</td>
+                <td>223</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="45 268">17%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_engine_result_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/engine/result.py</a></td>
+                <td>576</td>
+                <td>463</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="113 576">20%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_engine_strategies_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/engine/strategies.py</a></td>
+                <td>154</td>
+                <td>112</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="42 154">27%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_engine_threadlocal_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/engine/threadlocal.py</a></td>
+                <td>82</td>
+                <td>56</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="26 82">32%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_engine_url_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/engine/url.py</a></td>
+                <td>135</td>
+                <td>107</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="28 135">21%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_engine_util_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/engine/util.py</a></td>
+                <td>33</td>
+                <td>28</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="5 33">15%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_event___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/event/__init__.py</a></td>
+                <td>10</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 10">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_event_api_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/event/api.py</a></td>
+                <td>25</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="22 25">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_event_attr_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/event/attr.py</a></td>
+                <td>236</td>
+                <td>101</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="135 236">57%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_event_base_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/event/base.py</a></td>
+                <td>131</td>
+                <td>33</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="98 131">75%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_event_legacy_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/event/legacy.py</a></td>
+                <td>56</td>
+                <td>18</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="38 56">68%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_event_registry_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/event/registry.py</a></td>
+                <td>136</td>
+                <td>69</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="67 136">49%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_events_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/events.py</a></td>
+                <td>107</td>
+                <td>38</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="69 107">64%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_exc_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/exc.py</a></td>
+                <td>162</td>
+                <td>83</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="79 162">49%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_ext___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/ext/__init__.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_ext_baked_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/ext/baked.py</a></td>
+                <td>264</td>
+                <td>197</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="67 264">25%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_ext_compiler_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/ext/compiler.py</a></td>
+                <td>39</td>
+                <td>14</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="25 39">64%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_ext_declarative___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/ext/declarative/__init__.py</a></td>
+                <td>12</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="12 12">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_ext_declarative_api_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/ext/declarative/api.py</a></td>
+                <td>183</td>
+                <td>102</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="81 183">44%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_ext_declarative_base_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/ext/declarative/base.py</a></td>
+                <td>416</td>
+                <td>173</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="243 416">58%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_ext_declarative_clsregistry_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/ext/declarative/clsregistry.py</a></td>
+                <td>187</td>
+                <td>104</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="83 187">44%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_inspection_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/inspection.py</a></td>
+                <td>29</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="25 29">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_interfaces_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/interfaces.py</a></td>
+                <td>82</td>
+                <td>59</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="23 82">28%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_log_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/log.py</a></td>
+                <td>79</td>
+                <td>42</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="37 79">47%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/__init__.py</a></td>
+                <td>116</td>
+                <td>24</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="92 116">79%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_attributes_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/attributes.py</a></td>
+                <td>731</td>
+                <td>544</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="187 731">26%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_base_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/base.py</a></td>
+                <td>158</td>
+                <td>63</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="95 158">60%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_collections_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/collections.py</a></td>
+                <td>679</td>
+                <td>387</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="292 679">43%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_dependency_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/dependency.py</a></td>
+                <td>496</td>
+                <td>425</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="71 496">14%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_deprecated_interfaces_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/deprecated_interfaces.py</a></td>
+                <td>91</td>
+                <td>53</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="38 91">42%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_descriptor_props_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/descriptor_props.py</a></td>
+                <td>275</td>
+                <td>216</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="59 275">21%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_dynamic_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/dynamic.py</a></td>
+                <td>211</td>
+                <td>149</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="62 211">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_evaluator_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/evaluator.py</a></td>
+                <td>93</td>
+                <td>73</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="20 93">22%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_events_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/events.py</a></td>
+                <td>302</td>
+                <td>151</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="151 302">50%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_exc_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/exc.py</a></td>
+                <td>67</td>
+                <td>38</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="29 67">43%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_identity_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/identity.py</a></td>
+                <td>231</td>
+                <td>172</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="59 231">26%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_instrumentation_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/instrumentation.py</a></td>
+                <td>262</td>
+                <td>125</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="137 262">52%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_interfaces_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/interfaces.py</a></td>
+                <td>169</td>
+                <td>76</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="93 169">55%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_loading_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/loading.py</a></td>
+                <td>419</td>
+                <td>382</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="37 419">9%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_mapper_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/mapper.py</a></td>
+                <td>1053</td>
+                <td>676</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="377 1053">36%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_path_registry_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/path_registry.py</a></td>
+                <td>162</td>
+                <td>97</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="65 162">40%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_persistence_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/persistence.py</a></td>
+                <td>693</td>
+                <td>615</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="78 693">11%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_properties_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/properties.py</a></td>
+                <td>90</td>
+                <td>37</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="53 90">59%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_query_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/query.py</a></td>
+                <td>1261</td>
+                <td>981</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="280 1261">22%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_relationships_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/relationships.py</a></td>
+                <td>886</td>
+                <td>755</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="131 886">15%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_scoping_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/scoping.py</a></td>
+                <td>64</td>
+                <td>29</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="35 64">55%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_session_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/session.py</a></td>
+                <td>902</td>
+                <td>757</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="145 902">16%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_state_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/state.py</a></td>
+                <td>358</td>
+                <td>262</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="96 358">27%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_strategies_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/strategies.py</a></td>
+                <td>940</td>
+                <td>780</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="160 940">17%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_strategy_options_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/strategy_options.py</a></td>
+                <td>551</td>
+                <td>430</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="121 551">22%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_sync_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/sync.py</a></td>
+                <td>70</td>
+                <td>59</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 70">16%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_unitofwork_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/unitofwork.py</a></td>
+                <td>354</td>
+                <td>278</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="76 354">21%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_orm_util_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/orm/util.py</a></td>
+                <td>373</td>
+                <td>292</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="81 373">22%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_pool___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/pool/__init__.py</a></td>
+                <td>17</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="17 17">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_pool_base_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/pool/base.py</a></td>
+                <td>351</td>
+                <td>274</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="77 351">22%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_pool_dbapi_proxy_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/pool/dbapi_proxy.py</a></td>
+                <td>54</td>
+                <td>38</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="16 54">30%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_pool_impl_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/pool/impl.py</a></td>
+                <td>201</td>
+                <td>144</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="57 201">28%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_processors_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/processors.py</a></td>
+                <td>86</td>
+                <td>67</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="19 86">22%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_schema_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/schema.py</a></td>
+                <td>49</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="49 49">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_sql___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/sql/__init__.py</a></td>
+                <td>84</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="84 84">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_sql_annotation_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/sql/annotation.py</a></td>
+                <td>100</td>
+                <td>52</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="48 100">48%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_sql_base_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/sql/base.py</a></td>
+                <td>267</td>
+                <td>152</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="115 267">43%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_sql_compiler_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/sql/compiler.py</a></td>
+                <td>1548</td>
+                <td>1234</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="314 1548">20%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_sql_crud_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/sql/crud.py</a></td>
+                <td>309</td>
+                <td>275</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="34 309">11%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_sql_ddl_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/sql/ddl.py</a></td>
+                <td>316</td>
+                <td>216</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="100 316">32%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_sql_default_comparator_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/sql/default_comparator.py</a></td>
+                <td>132</td>
+                <td>65</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="67 132">51%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_sql_dml_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/sql/dml.py</a></td>
+                <td>187</td>
+                <td>123</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="64 187">34%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_sql_elements_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/sql/elements.py</a></td>
+                <td>1245</td>
+                <td>705</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="540 1245">43%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_sql_expression_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/sql/expression.py</a></td>
+                <td>153</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="153 153">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_sql_functions_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/sql/functions.py</a></td>
+                <td>288</td>
+                <td>118</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="170 288">59%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_sql_naming_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/sql/naming.py</a></td>
+                <td>106</td>
+                <td>37</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="69 106">65%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_sql_operators_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/sql/operators.py</a></td>
+                <td>296</td>
+                <td>119</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="177 296">60%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_sql_schema_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/sql/schema.py</a></td>
+                <td>1240</td>
+                <td>625</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="615 1240">50%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_sql_selectable_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/sql/selectable.py</a></td>
+                <td>1050</td>
+                <td>681</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="369 1050">35%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_sql_sqltypes_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/sql/sqltypes.py</a></td>
+                <td>863</td>
+                <td>513</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="350 863">41%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_sql_type_api_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/sql/type_api.py</a></td>
+                <td>357</td>
+                <td>215</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="142 357">40%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_sql_util_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/sql/util.py</a></td>
+                <td>429</td>
+                <td>329</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="100 429">23%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_sql_visitors_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/sql/visitors.py</a></td>
+                <td>140</td>
+                <td>81</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="59 140">42%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_types_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/types.py</a></td>
+                <td>58</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="58 58">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_util___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/util/__init__.py</a></td>
+                <td>138</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="138 138">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_util__collections_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/util/_collections.py</a></td>
+                <td>627</td>
+                <td>344</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="283 627">45%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_util_compat_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/util/compat.py</a></td>
+                <td>240</td>
+                <td>124</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="116 240">48%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_util_deprecations_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/util/deprecations.py</a></td>
+                <td>101</td>
+                <td>13</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="88 101">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_util_langhelpers_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py</a></td>
+                <td>827</td>
+                <td>422</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="405 827">49%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_util_queue_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/util/queue.py</a></td>
+                <td>91</td>
+                <td>67</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="24 91">26%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_sqlalchemy_util_topological_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/sqlalchemy/util/topological.py</a></td>
+                <td>47</td>
+                <td>39</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="8 47">17%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_visitor___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/visitor/__init__.py</a></td>
+                <td>11</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 11">18%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/__init__.py</a></td>
+                <td>36</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="33 36">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug__compat_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/_compat.py</a></td>
+                <td>148</td>
+                <td>99</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="49 148">33%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug__internal_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/_internal.py</a></td>
+                <td>252</td>
+                <td>182</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="70 252">28%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug__reloader_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/_reloader.py</a></td>
+                <td>215</td>
+                <td>152</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="63 215">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_datastructures_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/datastructures.py</a></td>
+                <td>1364</td>
+                <td>939</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="425 1364">31%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_debug___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/debug/__init__.py</a></td>
+                <td>269</td>
+                <td>204</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="65 269">24%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_debug_console_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/debug/console.py</a></td>
+                <td>145</td>
+                <td>99</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="46 145">32%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_debug_repr_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/debug/repr.py</a></td>
+                <td>194</td>
+                <td>149</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="45 194">23%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_debug_tbtools_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/debug/tbtools.py</a></td>
+                <td>310</td>
+                <td>238</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="72 310">23%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_exceptions_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/exceptions.py</a></td>
+                <td>218</td>
+                <td>59</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="159 218">73%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_filesystem_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/filesystem.py</a></td>
+                <td>22</td>
+                <td>13</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="9 22">41%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_formparser_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/formparser.py</a></td>
+                <td>256</td>
+                <td>199</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="57 256">22%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_http_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/http.py</a></td>
+                <td>477</td>
+                <td>393</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="84 477">18%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_local_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/local.py</a></td>
+                <td>216</td>
+                <td>98</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="118 216">55%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_routing_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/routing.py</a></td>
+                <td>733</td>
+                <td>396</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="337 733">46%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_security_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/security.py</a></td>
+                <td>104</td>
+                <td>73</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="31 104">30%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_serving_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/serving.py</a></td>
+                <td>508</td>
+                <td>380</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="128 508">25%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_test_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/test.py</a></td>
+                <td>545</td>
+                <td>417</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="128 545">23%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_urls_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/urls.py</a></td>
+                <td>455</td>
+                <td>341</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="114 455">25%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_useragents_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/useragents.py</a></td>
+                <td>46</td>
+                <td>24</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="22 46">48%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_utils_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/utils.py</a></td>
+                <td>272</td>
+                <td>200</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="72 272">26%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_wrappers___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/wrappers/__init__.py</a></td>
+                <td>16</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="16 16">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_wrappers_accept_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/wrappers/accept.py</a></td>
+                <td>14</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 14">71%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_wrappers_auth_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/wrappers/auth.py</a></td>
+                <td>16</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 16">44%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_wrappers_base_request_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/wrappers/base_request.py</a></td>
+                <td>181</td>
+                <td>102</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="79 181">44%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_wrappers_base_response_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/wrappers/base_response.py</a></td>
+                <td>231</td>
+                <td>170</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="61 231">26%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_wrappers_common_descriptors_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/wrappers/common_descriptors.py</a></td>
+                <td>94</td>
+                <td>41</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="53 94">56%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_wrappers_etag_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/wrappers/etag.py</a></td>
+                <td>116</td>
+                <td>73</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="43 116">37%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_wrappers_json_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/wrappers/json.py</a></td>
+                <td>65</td>
+                <td>43</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="22 65">34%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_wrappers_request_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/wrappers/request.py</a></td>
+                <td>11</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 11">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_wrappers_response_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/wrappers/response.py</a></td>
+                <td>38</td>
+                <td>20</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="18 38">47%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_wrappers_user_agent_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/wrappers/user_agent.py</a></td>
+                <td>5</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="4 5">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_werkzeug_wsgi_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/werkzeug/wsgi.py</a></td>
+                <td>441</td>
+                <td>365</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="76 441">17%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_wtforms___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/wtforms/__init__.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="5 5">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_wtforms_compat_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/wtforms/compat.py</a></td>
+                <td>19</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 19">53%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_wtforms_ext___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/wtforms/ext/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_wtforms_ext_csrf___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/wtforms/ext/csrf/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_wtforms_ext_csrf_fields_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/wtforms/ext/csrf/fields.py</a></td>
+                <td>7</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="5 7">71%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_wtforms_ext_csrf_form_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/wtforms/ext/csrf/form.py</a></td>
+                <td>18</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 18">56%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_wtforms_ext_sqlalchemy___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/wtforms/ext/sqlalchemy/__init__.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_wtforms_ext_sqlalchemy_fields_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/wtforms/ext/sqlalchemy/fields.py</a></td>
+                <td>112</td>
+                <td>82</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="30 112">27%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_wtforms_fields___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/wtforms/fields/__init__.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="4 4">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_wtforms_fields_core_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/wtforms/fields/core.py</a></td>
+                <td>513</td>
+                <td>366</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="147 513">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_wtforms_fields_html5_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/wtforms/fields/html5.py</a></td>
+                <td>25</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="25 25">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_wtforms_fields_simple_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/wtforms/fields/simple.py</a></td>
+                <td>18</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="16 18">89%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_wtforms_form_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/wtforms/form.py</a></td>
+                <td>129</td>
+                <td>92</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="37 129">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_wtforms_i18n_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/wtforms/i18n.py</a></td>
+                <td>29</td>
+                <td>18</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 29">38%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_wtforms_meta_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/wtforms/meta.py</a></td>
+                <td>43</td>
+                <td>26</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="17 43">40%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_wtforms_utils_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/wtforms/utils.py</a></td>
+                <td>21</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="12 21">57%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_wtforms_validators_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/wtforms/validators.py</a></td>
+                <td>263</td>
+                <td>171</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="92 263">35%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_wtforms_widgets___init___py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/wtforms/widgets/__init__.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_wtforms_widgets_core_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/wtforms/widgets/core.py</a></td>
+                <td>127</td>
+                <td>74</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="53 127">42%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="_home_anatolii_Graduation_Work_env_lib_python3_7_site-packages_wtforms_widgets_html5_py.html">/home/anatolii/Graduation_Work/env/lib/python3.7/site-packages/wtforms/widgets/html5.py</a></td>
+                <td>46</td>
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="36 46">78%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="app___init___py.html">app/__init__.py</a></td>
+                <td>42</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="35 42">83%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="app_admin___init___py.html">app/admin/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="app_admin_forms_py.html">app/admin/forms.py</a></td>
+                <td>20</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="18 20">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="app_admin_views_py.html">app/admin/views.py</a></td>
+                <td>118</td>
+                <td>91</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="27 118">23%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="app_auth___init___py.html">app/auth/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="app_auth_forms_py.html">app/auth/forms.py</a></td>
+                <td>26</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="20 26">77%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="app_auth_views_py.html">app/auth/views.py</a></td>
+                <td>36</td>
+                <td>24</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="12 36">33%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="app_home___init___py.html">app/home/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="app_home_views_py.html">app/home/views.py</a></td>
+                <td>13</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="8 13">62%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="app_models_py.html">app/models.py</a></td>
+                <td>33</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="26 33">79%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="config_py.html">config.py</a></td>
+                <td>9</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="9 9">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="instance_config_py.html">instance/config.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="loggers_py.html">loggers.py</a></td>
+                <td>18</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="17 18">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="run.html">run</a></td>
+                <td>10</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 10">100%</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v4.5.4</a>,
+            created at 2020-01-03 18:26
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
