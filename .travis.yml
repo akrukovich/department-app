@@ -4,7 +4,7 @@ python:
 install:
   - pip install -r requirements.txt
 script:
-   -python pylint app
+   python pylint app
 
 
 
