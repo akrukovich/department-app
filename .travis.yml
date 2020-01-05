@@ -10,6 +10,9 @@ install:
   - pip install -r requirements.txt
 script:
    python manage.py test
+ - coverage erase
+ - coverage run -m unittest tests/*.py && coverage report -m
+
 
 
 
