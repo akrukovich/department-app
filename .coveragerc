@@ -1,0 +1,10 @@
+[run]
+source =
+    app
+    tests
+[paths]
+source =
+    */site-packages/
+[report]
+show_missing = True
+precision = 2
