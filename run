@@ -1,4 +1,6 @@
-# run.py
+"""
+Running app module.
+"""
 import os
 from app import create_app
 from loggers import get_logger
