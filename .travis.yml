@@ -12,7 +12,8 @@ script:
   - python manage.py test
   - coverage erase
   - coverage run -m unittest tests/*.py && coverage report -m
-  - pylint --output-format=text app
+after_success:
+  - coveralls
 
 
 
