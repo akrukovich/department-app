@@ -12,6 +12,7 @@ script:
   - python manage.py test
   - coverage erase
   - coverage run -m unittest tests/*.py && coverage report -m
+  - export COVERALLS_REPO_TOKEN=vdjgOrmFFlILrbj1FZFcgFCCp8WVhnFry
 after_success:
   - coveralls
 
