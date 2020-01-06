@@ -2,6 +2,8 @@
 source =
     app
     tests
+omit = *.html*
+
 [report]
 show_missing = True
 precision = 2
