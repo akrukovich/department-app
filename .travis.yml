@@ -6,13 +6,13 @@ services:
 before_script:
 - mysql -e 'create database IF NOT EXISTS dep_db_test;' -uroot
 - mysql -e "GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost';" -uroot
+- python export COVERALLS_REPO_TOKEN=vdjgOrmFFlILrbj1FZFcgFCCp8WVhnFry
 install:
   - pip install -r requirements.txt
 script:
   - python manage.py test
   - coverage erase
   - coverage run -m unittest tests/*.py && coverage report -m
-  - export COVERALLS_REPO_TOKEN=vdjgOrmFFlILrbj1FZFcgFCCp8WVhnFry
 after_success:
   - coveralls
 
