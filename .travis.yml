@@ -15,7 +15,7 @@ script:
   - python manage.py test
   - coverage erase
   - coverage run -m unittest tests/*.py && coverage report -m
-  - pylint --const-rgx='[a-z_][a-z0-9_]{2,30}$' run
+  - pylint-fail-under --fail_under 0.0 -ry *.py app
 after_success:
   - coveralls
 
