@@ -1,7 +1,7 @@
 # config.py
 
 
-class Config(object):
+class Config():
     """
     Common configurations
     """
@@ -41,7 +41,7 @@ class TestingConfig(Config):
     TESTING = True
 
 
-app_config = {
+APP_CONFIG = {
     'development': DevelopmentConfig,
     'production': ProductionConfig,
     'testing': TestingConfig,

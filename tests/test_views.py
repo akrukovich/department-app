@@ -1,9 +1,11 @@
 # Third-party imports
+import unittest
+
 from flask import url_for
 from flask_login import login_user, current_user, logout_user
-from app.models import Employee
+from models.models import Employee
 from loggers import get_logger
-from app.util import TestBase
+from tests.util import TestBase
 
 # Local imports
 

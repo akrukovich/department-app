@@ -4,14 +4,15 @@ from wtforms import PasswordField, StringField, SubmitField, ValidationError
 from wtforms.validators import DataRequired, Email, EqualTo
 from wtforms.fields.html5 import DateField
 # Local import
-from app.models import Employee
+from models.models import Employee
 
 
 class RegistrationForm(FlaskForm):
     """Form for users to create new account.
 
     For the registration form, we require users to fill in their
-    email address, username, first name, last name,date of birth and expected salary and their password twice
+    email address, username, first name, last name,date of birth
+    and expected salary and their password twice
     """
     email = StringField('Email', validators=[DataRequired(), Email()])
     username = StringField('Username', validators=[DataRequired()])
@@ -67,4 +68,3 @@ class LoginForm(FlaskForm):
     email = StringField('Email', validators=[DataRequired(), Email()])
     password = PasswordField('Password', validators=[DataRequired()])
     submit = SubmitField('Login')
-

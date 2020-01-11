@@ -1,13 +1,13 @@
-# app/__init__.py
-# third-party imports
 from flask import Flask, render_template, abort
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
 from flask_migrate import Migrate, MigrateCommand
 from flask_bootstrap import Bootstrap
 from flask_script import Manager
+# Local imports.
 from loggers import get_logger
-from config import app_config
+from config import APP_CONFIG
+
 
 # db variable initialization
 db = SQLAlchemy()
@@ -19,7 +19,7 @@ logger = get_logger(__name__)
 
 
 def create_app(config_name):
-    """Create Flask application
+    """Create Flask application factory.
 
     Create Flask application with configuration provided by config_name variable.
     Furthermore, this function create database migrations and handle 403,404,500 errors.
@@ -29,11 +29,14 @@ def create_app(config_name):
     Returns: Flask application.
 
     """
-    app = Flask(__name__, instance_relative_config=True)
-    app.config.from_object(app_config[config_name])
-    # app.config.from_pyfile('config.py')
-    # app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:Ak12345678@127.0.0.1/dep_db_test'
-    app.config['SECRET_KEY'] = 'asdasdasdasd'
+    app = Flask(__name__, instance_relative_config=True,
+                template_folder="../templates",
+                static_folder='../static'
+                )
+    app.config.from_object(APP_CONFIG[config_name])
+    app.config.from_pyfile('config.py')
+    # app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:Ak12345678@127.0.0.1/dep_db'
+    # app.config['SECRET_KEY'] = 'asdasdasdasd'
 
     Bootstrap(app)
     db.init_app(app)
@@ -45,19 +48,13 @@ def create_app(config_name):
     manager = Manager(app)
     manager.add_command('db', MigrateCommand, compare_type=True)
 
-    from app import models
-
-    # Each blueprint object has imported  and registered. For the admin blueprint,
-    # url prefix /admin is added. This means that all the views for this blueprint will be accessed
-    # in the browser with the url prefix admin.
-
-    from app.admin import admin as admin_blueprint
+    from views.admin import admin as admin_blueprint
     app.register_blueprint(admin_blueprint, url_prefix='/admin')
 
-    from .auth import auth as auth_blueprint
+    from views.auth import auth as auth_blueprint
     app.register_blueprint(auth_blueprint)
 
-    from .home import home as home_blueprint
+    from views.home import home as home_blueprint
     app.register_blueprint(home_blueprint)
 
     @app.errorhandler(403)
@@ -83,4 +80,3 @@ def create_app(config_name):
         abort(500)
 
     return app
-

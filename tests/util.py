@@ -1,9 +1,9 @@
 # Third-party imports
+from datetime import datetime
 from flask_testing import TestCase
-from app.models import Employee, Department
+from models.models import Employee, Department
 from loggers import get_logger
 from app import create_app, db
-from datetime import datetime
 
 
 logger = get_logger(__name__)
@@ -25,7 +25,7 @@ class TestBase(TestCase):
         app = create_app(config_name)
 
 
-        # app.config.update(SQLALCHEMY_DATABASE_URI='mysql://root:Ak12345678@localhost/dep_db_test')
+        app.config.update(SQLALCHEMY_DATABASE_URI='mysql://root:Ak12345678@localhost/dep_db_test')
         # app.config.update(SQLALCHEMY_DATABASE_URI='mysql://root:@127.0.0.1/dep_db_test')
 
         return app
@@ -66,9 +66,9 @@ class TestBase(TestCase):
         db.session.add(admin)
         db.session.add(employee)
         db.session.commit()
-        logger.info(f'Test {department.name}, {admin.username} and {employee.username} have been committed')
+        logger.info(f'Test {department.name}, {admin.username} '
+                    f'and {employee.username} have been committed')
 
-        return None
 
     def tearDown(self):
         """Delete tables and testing data.
@@ -84,6 +84,3 @@ class TestBase(TestCase):
         logger.info('''Test database has been deleted
 --------------------------------------------------------------------------------------'''
                     )
-        return None
-
-

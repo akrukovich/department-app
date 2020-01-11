@@ -2,7 +2,7 @@
 from flask import render_template, abort
 from flask_login import login_required, current_user
 # local imports
-from app.home import home
+from views.home import home
 
 
 @home.route('/')

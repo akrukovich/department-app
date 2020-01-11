@@ -3,5 +3,5 @@ from flask import Blueprint
 
 # Local import
 auth = Blueprint('auth', __name__)
-import app.auth.views as views
 
+import views.auth.views as views

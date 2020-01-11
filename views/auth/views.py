@@ -1,13 +1,12 @@
 # 3rd party imports
 from flask import flash, redirect, render_template, url_for, request
 from flask_login import login_required, login_user, logout_user
-# Local imports
-from . import auth
-# import app.auth as auth
-from app.auth.forms import LoginForm, RegistrationForm
+from views.auth.forms import LoginForm, RegistrationForm
 from app import db
-from app.models import Employee
+from models.models import Employee
 from loggers import get_logger
+from . import auth
+
 
 logger = get_logger(__name__)
 
@@ -65,12 +64,12 @@ def login():
             # redirect to the appropriate dashboard page
             if employee.is_admin:
                 return redirect(url_for('home.admin_dashboard'))
-            else:
-                return redirect(url_for('home.dashboard'))
+            return redirect(url_for('home.dashboard'))
 
-    # when login details are incorrect
+        # when login details are incorrect
         else:
-            logger.info(f'{employee.email} {employee.username} admin:{employee.is_admin} entered invalid data')
+            logger.info(f'{employee.email} {employee.username} '
+                        f'admin:{employee.is_admin} entered invalid data')
             flash('Invalid email or password')
 
     # load login template

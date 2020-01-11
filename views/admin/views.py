@@ -4,10 +4,10 @@ from flask_login import current_user, login_required
 from sqlalchemy import exc
 from sqlalchemy import func
 # Local imports
-from app.admin import admin
-from app.admin.forms import DepartmentForm, EmployeeEditForm
+from views.admin import admin
+from views.admin.forms import DepartmentForm, EmployeeEditForm
 from app import db
-from app.models import Department, Employee
+from models.models import Department, Employee
 from loggers import get_logger
 
 
@@ -65,7 +65,7 @@ def add_department():
     form = DepartmentForm()
     if form.validate_on_submit():
 
-        department = Department(name=form.name.data)  # Todo add a  description parameter
+        department = Department(name=form.name.data)
 
         try:
             # add a department to the database
@@ -106,7 +106,6 @@ def edit_department(department_id):
 
     if form.validate_on_submit():
         department.name = form.name.data
-        # department.description = form.description.data  # ToDo description later
         db.session.commit()
         logger.info(f'Id: {department.department_id} Department edited to {department.name}')
         flash('You have successfully edited the department.')
@@ -114,7 +113,6 @@ def edit_department(department_id):
         return redirect(url_for('admin.list_departments'))
 
     form.name.data = department.name
-    # form.description.data = department.description #Todo later
 
     return render_template('admin/departments/department.html', action="Edit",
                            add_department=add_department, form=form,
@@ -250,7 +248,8 @@ def delete_employee(id):
     check_admin()
 
     employee = Employee.query.get_or_404(id)
-    logger.info(f'Delete employee Id: {employee.id} first name: {employee.first_name} last name: {employee.last_name}')
+    logger.info(f'Delete employee Id: {employee.id} first name: {employee.first_name}'
+                f' last name: {employee.last_name}')
     db.session.delete(employee)
     db.session.commit()
     logger.info(f'Id: {employee.id}, first name: {employee.first_name},'
