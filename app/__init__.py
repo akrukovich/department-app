@@ -34,9 +34,9 @@ def create_app(config_name):
                 static_folder='../static'
                 )
     app.config.from_object(APP_CONFIG[config_name])
-    app.config.from_pyfile('config.py')
-    # app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:Ak12345678@127.0.0.1/dep_db'
-    # app.config['SECRET_KEY'] = 'asdasdasdasd'
+#     app.config.from_pyfile('config.py')
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:Ak12345678@127.0.0.1/dep_db'
+    app.config['SECRET_KEY'] = 'asdasdasdasd'
 
     Bootstrap(app)
     db.init_app(app)
