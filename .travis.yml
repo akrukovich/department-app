@@ -15,6 +15,6 @@ script:
   - python manage.py test
   - coverage erase
   - coverage run -m unittest tests/*.py && coverage report -m
-  - pylint-fail-under --fail_under 0.0 -ry *.py app
+  - pylint-fail-under --fail_under 0.0 -ry *.py app models/models.py tests views manage.py loggers.py
 after_success:
   - coveralls
