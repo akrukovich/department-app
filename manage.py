@@ -1,7 +1,5 @@
 import os
 import unittest
-<<<<<<< HEAD
-# import coverage
 
 from app import create_app
 from flask_script import Manager

@@ -1,10 +1,6 @@
 # Third-party imports
-from flask import url_for
-from flask_login import login_user, current_user, logout_user
-from app.models import Employee
-from loggers import get_logger
-from app.util import TestBase
 import unittest
+
 from flask import url_for
 from flask_login import login_user, current_user, logout_user
 from models.models import Employee
@@ -20,12 +16,10 @@ logger = get_logger(__name__)
 
 class TestHomeViews(TestBase):
     """Class for home views testing.
-
     """
 
     def test_homepage_view(self):
         """Test that homepage is accessible without login.
-
          Test homepage accessing and correct template rendering/
         Returns:
             None
@@ -37,12 +31,10 @@ class TestHomeViews(TestBase):
 
     def test_dashboard_view(self):
         """Dashboard testing.
-
         Test that dashboard is inaccessible without login
         and redirects to login page then to dashboard.
         Returns:
             None
-
         """
         target_url = url_for('home.dashboard')
         redirect_url = url_for('auth.login', next=target_url)
@@ -54,12 +46,10 @@ class TestHomeViews(TestBase):
 
     def test_admin_dashboard_view(self):
         """Admin dashboard testing.
-
         Test that dashboard is inaccessible without login
         and redirects to login page then to dashboard
         Returns:
             None
-
         """
         target_url = url_for('home.admin_dashboard')
         redirect_url = url_for('auth.login', next=target_url)
@@ -72,16 +62,13 @@ class TestHomeViews(TestBase):
 
 class TestAuthViews(TestBase):
     """Class for auth views testing.
-
     """
 
     def test_register_view(self):
         """Registration view test.
-
         Test response from registration view and correct template.
         Returns:
             None
-
         """
         response = self.client.get(url_for('auth.register'))
         self.assertEqual(response.status_code, 200)
@@ -90,11 +77,9 @@ class TestAuthViews(TestBase):
 
     def test_login_view(self):
         """Test that login page is accessible without login.
-
         Test response from login view and correct template.
         Returns:
             None
-
         """
 
         response = self.client.get(url_for('auth.login'))
@@ -104,12 +89,10 @@ class TestAuthViews(TestBase):
 
     def test_logout_view(self):
         """Logout test.
-
         Test that logout link is inaccessible without login
         and redirects to login page then to logout.
         Returns:
             None
-
         """
         target_url = url_for('auth.logout')
         redirect_url = url_for('auth.login', next=target_url)
@@ -122,15 +105,12 @@ class TestAuthViews(TestBase):
 
 class TestAdminViews(TestBase):
     """Class for admin views testing.
-
     """
     def test_check_admin(self):
         """Test check_admin.
-
         Test is current user is admin.
         Returns:
             None
-
         """
         employee = Employee.query.filter_by(username='test_user').first()
         login_user(employee)

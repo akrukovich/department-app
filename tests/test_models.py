@@ -1,16 +1,15 @@
 # Third-party imports
-from datetime import datetime
-from app.util import TestBase
-# Local imports
-from app import create_app, db
-from app.models import Employee, Department
 import unittest
 from datetime import datetime
+
 from tests.util import TestBase
+
+# Local imports
 from models.models import Employee, Department
 from loggers import get_logger
 
 logger = get_logger(__name__)
+
 
 class TestModels(TestBase):
 
@@ -43,6 +42,6 @@ class TestModels(TestBase):
         self.assertEqual(Department.query.count(), 1)
         self.assertEqual(department.__str__(), 'TestDep')
 
+
 if __name__ == '__main__':
     unittest.main()
-
