@@ -12,7 +12,6 @@ before_script:
 install:
   - pip install -r requirements.txt
 script:
-  - export FLASK_ENV=testing
   - python manage.py test
   - coverage erase
   - coverage run -m unittest tests/*.py && coverage report -m
