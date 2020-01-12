@@ -9,7 +9,12 @@ certifi==2019.11.28
 chardet==3.0.4
 Click==7.0
 coverage==4.5.4
+<<<<<<< HEAD
 Django==3.0
+=======
+coveralls==1.10.0
+docopt==0.6.2
+>>>>>>> feature
 docutils==0.15.2
 dominate==2.3.1
 Flask==1.1.1
@@ -23,6 +28,7 @@ Flask-SQLAlchemy==2.1
 Flask-Testing==0.7.1
 Flask-WTF==0.13.1
 forms2==1.1.2
+gunicorn==20.0.4
 idna==2.8
 imagesize==1.1.0
 isort==4.3.21
@@ -37,6 +43,7 @@ mysqlclient==1.4.6
 packaging==19.2
 Pygments==2.5.2
 pylint==2.4.4
+pylint-fail-under==0.3.0
 pyparsing==2.4.5
 python-coveralls==2.9.3
 python-dateutil==2.8.1
@@ -60,6 +67,7 @@ typed-ast==1.4.0
 urllib3==1.25.7
 virtualenv==16.7.8
 visitor==0.1.3
+waitress==1.4.2
 Werkzeug==0.16.0
 wrapt==1.11.2
 WTForms==2.1

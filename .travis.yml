@@ -1,17 +1,22 @@
 language: python
 python:
   - "3.7"
+services:
+  - mysql
+jobs:
+  include:
+    -env: COVERALLS_REPO_TOKEN=vdjgOrmFFlILrbj1FZFcgFCCp8WVhnFry
+before_script:
+- mysql -e 'create database IF NOT EXISTS dep_db_test;' -uroot
+- mysql -e "GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost';" -uroot
 install:
   - pip install -r requirements.txt
 script:
-   -python manage.py test
-
-
-
-
-
-
-
-
+  - python manage.py test
+  - coverage erase
+  - coverage run -m unittest tests/*.py && coverage report -m
+  - pylint-fail-under --fail_under 0.0 -ry *.py app models/models.py tests views manage.py loggers.py
+after_success:
+  - coveralls
 
 
