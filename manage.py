@@ -1,10 +1,5 @@
 import os
 import unittest
-
-from app.util import create_app
-from flask_script import Manager
-
-
 from flask_script import Manager
 from tests.util import create_app
 
