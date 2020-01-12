@@ -1,7 +1,7 @@
 import os
 import unittest
 
-from app import create_app
+from app.util import create_app
 from flask_script import Manager
 
 
@@ -24,3 +24,4 @@ def test():
 
 if __name__ == '__main__':
     manager.run()
+

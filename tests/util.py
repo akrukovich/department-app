@@ -13,28 +13,23 @@ class TestBase(TestCase):
 
     def create_app(self):
         """ Create Flask application and connect to the test database for testing.
-
         Create for model testing flask application object and connect to the test database.
-
         Returns:
              app: Flask object
-
         """
         # Pass in test configurations
         config_name = 'testing'
         app = create_app(config_name)
 
 
-        app.config.update(SQLALCHEMY_DATABASE_URI='mysql://root:Ak12345678@localhost/dep_db_test') # Local
-        # app.config.update(SQLALCHEMY_DATABASE_URI='mysql://root:@127.0.0.1/dep_db_test') #travis-si
+        # app.config.update(SQLALCHEMY_DATABASE_URI='mysql://root:Ak12345678@localhost/dep_db_test') # Local
+        app.config.update(SQLALCHEMY_DATABASE_URI='mysql://root:@127.0.0.1/dep_db_test') #travis-si
 
         return app
 
     def setUp(self):
         """Create tables and fill them up with testing data.
-
         Being invoked before each test of current class for creating test tables and filling them.
-
         Returns:
             None
         """
@@ -72,12 +67,9 @@ class TestBase(TestCase):
 
     def tearDown(self):
         """Delete tables and testing data.
-
         Being invoked after each test of current class for deleting test tables and data.
-
         Returns:
             None
-
         """
         db.session.remove()
         db.drop_all()

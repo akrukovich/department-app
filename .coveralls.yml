@@ -1,5 +1,0 @@
-service_name: travis-pro
-repo_token: vdjgOrmFFlILrbj1FZFcgFCCp8WVhnFry
-gem 'coveralls', require: false
-require 'coveralls'
-Coveralls.wear!

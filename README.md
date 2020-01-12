@@ -60,4 +60,3 @@ Run with coverage report:
 $ coverage run -m unittest tests/*.py && coverage html
 
 # open htmlcov/index.html in a browser
->>>>>>> feature
