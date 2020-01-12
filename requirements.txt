@@ -1,7 +1,7 @@
-gunicorn
 alabaster==0.7.12
 alembic==0.8.9
 aniso8601==8.0.0
+-e git+git@github.com:akrukovich/department-app.git@c4e8e204fcf41be77da2fe1da0b1c4ea091d09c7#egg=app
 asgiref==3.2.3
 astroid==2.3.3
 Babel==2.7.0
@@ -25,6 +25,7 @@ Flask-SQLAlchemy==2.1
 Flask-Testing==0.7.1
 Flask-WTF==0.13.1
 forms2==1.1.2
+gunicorn==20.0.4
 idna==2.8
 imagesize==1.1.0
 isort==4.3.21
@@ -50,6 +51,7 @@ requests==2.22.0
 six==1.13.0
 snowballstemmer==2.0.0
 Sphinx==2.2.2
+sphinxcontrib-applehelp==1.0.1
 sphinxcontrib-qthelp==1.0.2
 sphinxcontrib-serializinghtml==1.1.3
 SQLAlchemy==1.3.11
@@ -59,6 +61,7 @@ typed-ast==1.4.0
 urllib3==1.25.7
 virtualenv==16.7.8
 visitor==0.1.3
+waitress==1.4.2
 Werkzeug==0.16.0
 wrapt==1.11.2
 WTForms==2.1

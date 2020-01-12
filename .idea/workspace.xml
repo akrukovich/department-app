@@ -2,57 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="438e7525-991d-42ad-8e80-45f934111a4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MANIFEST.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/department-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/department-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/v/cache/lastfailed" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/auth/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/auth/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/auth/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/auth/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/auth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/auth/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/home/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/home/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/epam.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/epam.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/datefilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/datefilter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/sort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/sorttables.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/sorttables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/admin/departments/department.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/departments/department.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/admin/departments/departments.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/departments/departments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/admin/employees/employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/employees/employee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/admin/employees/employees.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/employees/employees.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/auth/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/errors/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/errors/403.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/errors/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/errors/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/errors/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/errors/500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/home/admin_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/admin_dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/home/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loggers.py" beforeDir="false" afterPath="$PROJECT_DIR$/loggers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pylint.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run" beforeDir="false" afterPath="$PROJECT_DIR$/run" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testlogs.log" beforeDir="false" afterPath="$PROJECT_DIR$/testlogs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/logs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_errors.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_errors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/testlogs.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/testlogs.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -351,7 +311,10 @@
       <workItem from="1578658951246" duration="11902000" />
       <workItem from="1578741569830" duration="1675000" />
       <workItem from="1578756312325" duration="13285000" />
-      <workItem from="1578778832065" duration="599000" />
+      <workItem from="1578778832065" duration="1917000" />
+      <workItem from="1578821582578" duration="1334000" />
+      <workItem from="1578824147097" duration="50000" />
+      <workItem from="1578825158984" duration="2195000" />
     </task>
     <servers />
   </component>
@@ -402,30 +365,30 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="466" y="267" width="480" height="288" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.1299.741@67.27.1299.741" timestamp="1576165341543" />
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1578336449809">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1578824194756">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1578336449809" />
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1578824194756" />
     <state x="122" y="27" width="1179" height="741" key="FileDocumentManager.FileCacheConflict" timestamp="1577387666079">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="122" y="27" width="1179" height="741" key="FileDocumentManager.FileCacheConflict/67.27.1299.741@67.27.1299.741" timestamp="1577387666079" />
-    <state width="1253" height="286" key="GridCell.Tab.0.bottom" timestamp="1578772764864">
+    <state width="1253" height="252" key="GridCell.Tab.0.bottom" timestamp="1578828655124">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="286" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1578772764864" />
-    <state width="1253" height="286" key="GridCell.Tab.0.center" timestamp="1578772764863">
+    <state width="1253" height="252" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1578828655124" />
+    <state width="1253" height="252" key="GridCell.Tab.0.center" timestamp="1578828655123">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="286" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1578772764863" />
-    <state width="1253" height="286" key="GridCell.Tab.0.left" timestamp="1578772764863">
+    <state width="1253" height="252" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1578828655123" />
+    <state width="1253" height="252" key="GridCell.Tab.0.left" timestamp="1578828655123">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="286" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1578772764863" />
-    <state width="1253" height="286" key="GridCell.Tab.0.right" timestamp="1578772764863">
+    <state width="1253" height="252" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1578828655123" />
+    <state width="1253" height="252" key="GridCell.Tab.0.right" timestamp="1578828655124">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="286" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1578772764863" />
+    <state width="1253" height="252" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1578828655124" />
     <state width="1253" height="308" key="GridCell.Tab.1.bottom" timestamp="1578249442469">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -446,10 +409,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="115" y="38" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1578758783999" />
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1578778833221">
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1578832174241">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1578778833221" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1578832174241" />
     <state x="370" y="27" width="683" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577026186164">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -477,7 +440,7 @@
     <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_forms_TestAuthForms_test_validate_success_login_form.coverage" NAME="Unittests for test_forms.TestAuthForms.test_validate_success_login_form Coverage Results" MODIFIED="1577987875184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/department_app$run_wsgi.coverage" NAME="run_wsgi Coverage Results" MODIFIED="1578763340917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/department_app$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1578093189100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/department_app$run.coverage" NAME="run Coverage Results" MODIFIED="1578771758748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/department_app$run.coverage" NAME="run Coverage Results" MODIFIED="1578826251624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_forms_TestAdminForms_test_validate_success_department_form.coverage" NAME="Unittests for test_forms.TestAdminForms.test_validate_success_department_form Coverage Results" MODIFIED="1577990112991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/department_app$Unittests_in_tests_py.coverage" NAME="Unittests in tests.py Coverage Results" MODIFIED="1577641737432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/department_app$Unittests_for_test_forms_TestBase.coverage" NAME="Unittests for test_forms.TestBase Coverage Results" MODIFIED="1577752591556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
