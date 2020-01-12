@@ -18,3 +18,4 @@ script:
   - pylint-fail-under --fail_under 0.0 -ry *.py app models/models.py tests views manage.py loggers.py
 after_success:
   - coveralls
+
