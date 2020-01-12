@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="438e7525-991d-42ad-8e80-45f934111a4f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.cache/v/cache/lastfailed" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testlogs.log" beforeDir="false" afterPath="$PROJECT_DIR$/testlogs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,6 +306,7 @@
       <workItem from="1578821582578" duration="1334000" />
       <workItem from="1578824147097" duration="50000" />
       <workItem from="1578825158984" duration="2195000" />
+      <workItem from="1578832171630" duration="2472000" />
     </task>
     <servers />
   </component>
@@ -353,10 +345,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="167" y="125" width="1099" height="543" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/67.27.1299.741@67.27.1299.741" timestamp="1578059064357" />
-    <state x="421" y="201" width="716" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578770023055">
+    <state x="421" y="201" width="716" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578833449700">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="421" y="201" width="716" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1578770023055" />
+    <state x="421" y="201" width="716" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1578833449700" />
     <state x="449" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577454820463">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
