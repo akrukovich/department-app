@@ -33,7 +33,7 @@ def create_app(config_name):
                 template_folder="../templates",
                 static_folder='../static'
                 )
-    # app.config.from_object(APP_CONFIG[config_name])
+    app.config.from_object(APP_CONFIG[config_name])
     # app.config.from_pyfile('config.py')
     app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:Ak12345678@127.0.0.1/dep_db'
     app.config['SECRET_KEY'] = b'\xe4\x9fs\xff9p\x0c\xffm\xfc\x0e\xfb\x1a&\xed\x94'
