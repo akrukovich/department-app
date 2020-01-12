@@ -1,7 +1,6 @@
 alabaster==0.7.12
 alembic==0.8.9
 aniso8601==8.0.0
--e git+git@github.com:akrukovich/department-app.git@c4e8e204fcf41be77da2fe1da0b1c4ea091d09c7#egg=app
 asgiref==3.2.3
 astroid==2.3.3
 Babel==2.7.0
