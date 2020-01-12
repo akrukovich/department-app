@@ -34,3 +34,15 @@
 2020-01-12 12:50:58,411 - views.auth.views - admin@admin.com admin admin:True logged in
 2020-01-12 12:51:12,164 - __main__ - Stop debugging
 2020-01-12 12:52:16,127 - app - 404 Error occurred
+2020-01-12 18:08:09,945 - app - 403 Error occurred
+2020-01-12 18:08:10,341 - app - 404 Error occurred
+2020-01-12 18:08:10,746 - app - 500 Error occurred
+2020-01-12 18:09:11,771 - app - 403 Error occurred
+2020-01-12 18:09:12,180 - app - 404 Error occurred
+2020-01-12 18:09:12,582 - app - 500 Error occurred
+2020-01-12 18:14:37,885 - app - 403 Error occurred
+2020-01-12 18:14:38,309 - app - 404 Error occurred
+2020-01-12 18:14:38,706 - app - 500 Error occurred
+2020-01-12 18:16:52,923 - app - 403 Error occurred
+2020-01-12 18:16:53,317 - app - 404 Error occurred
+2020-01-12 18:16:53,723 - app - 500 Error occurred

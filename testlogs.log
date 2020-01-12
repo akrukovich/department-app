@@ -332,3 +332,671 @@
 2020-01-12 00:48:34,689 - test_views - Homepage status: 200. Test is done.
 2020-01-12 00:48:34,734 - tests.util - Test database has been deleted
 --------------------------------------------------------------------------------------
+2020-01-12 18:08:09,682 - tests.util - Test database has been created
+2020-01-12 18:08:09,809 - tests.util - admin has been created
+2020-01-12 18:08:09,918 - tests.util - test_user has been created
+2020-01-12 18:08:09,918 - tests.util - TestDep has been created
+2020-01-12 18:08:09,943 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:09,964 - test_errors - 403 forbidden status: 403. Test is done.
+2020-01-12 18:08:09,985 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:08:10,101 - tests.util - Test database has been created
+2020-01-12 18:08:10,218 - tests.util - admin has been created
+2020-01-12 18:08:10,322 - tests.util - test_user has been created
+2020-01-12 18:08:10,323 - tests.util - TestDep has been created
+2020-01-12 18:08:10,340 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:10,356 - test_errors - Access to /empty is denied.It doesnt exist, status: 404. Test is done
+2020-01-12 18:08:10,376 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:08:10,505 - tests.util - Test database has been created
+2020-01-12 18:08:10,616 - tests.util - admin has been created
+2020-01-12 18:08:10,724 - tests.util - test_user has been created
+2020-01-12 18:08:10,725 - tests.util - TestDep has been created
+2020-01-12 18:08:10,743 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:10,760 - test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-12 18:08:10,776 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:08:10,903 - tests.util - Test database has been created
+2020-01-12 18:08:11,021 - tests.util - admin has been created
+2020-01-12 18:08:11,135 - tests.util - test_user has been created
+2020-01-12 18:08:11,135 - tests.util - TestDep has been created
+2020-01-12 18:08:11,157 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:11,175 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:08:11,301 - tests.util - Test database has been created
+2020-01-12 18:08:11,420 - tests.util - admin has been created
+2020-01-12 18:08:11,526 - tests.util - test_user has been created
+2020-01-12 18:08:11,526 - tests.util - TestDep has been created
+2020-01-12 18:08:11,547 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:11,569 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:08:11,689 - tests.util - Test database has been created
+2020-01-12 18:08:11,798 - tests.util - admin has been created
+2020-01-12 18:08:11,909 - tests.util - test_user has been created
+2020-01-12 18:08:11,909 - tests.util - TestDep has been created
+2020-01-12 18:08:11,926 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:11,943 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:08:12,077 - tests.util - Test database has been created
+2020-01-12 18:08:12,188 - tests.util - admin has been created
+2020-01-12 18:08:12,293 - tests.util - test_user has been created
+2020-01-12 18:08:12,293 - tests.util - TestDep has been created
+2020-01-12 18:08:12,314 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:12,331 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:08:12,462 - tests.util - Test database has been created
+2020-01-12 18:08:12,573 - tests.util - admin has been created
+2020-01-12 18:08:12,678 - tests.util - test_user has been created
+2020-01-12 18:08:12,679 - tests.util - TestDep has been created
+2020-01-12 18:08:12,695 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:12,715 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:08:12,838 - tests.util - Test database has been created
+2020-01-12 18:08:12,950 - tests.util - admin has been created
+2020-01-12 18:08:13,055 - tests.util - test_user has been created
+2020-01-12 18:08:13,056 - tests.util - TestDep has been created
+2020-01-12 18:08:13,079 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:13,104 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:08:13,224 - tests.util - Test database has been created
+2020-01-12 18:08:13,345 - tests.util - admin has been created
+2020-01-12 18:08:13,449 - tests.util - test_user has been created
+2020-01-12 18:08:13,450 - tests.util - TestDep has been created
+2020-01-12 18:08:13,471 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:13,493 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:08:13,605 - tests.util - Test database has been created
+2020-01-12 18:08:13,718 - tests.util - admin has been created
+2020-01-12 18:08:13,829 - tests.util - test_user has been created
+2020-01-12 18:08:13,829 - tests.util - TestDep has been created
+2020-01-12 18:08:13,847 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:13,868 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:08:13,986 - tests.util - Test database has been created
+2020-01-12 18:08:14,102 - tests.util - admin has been created
+2020-01-12 18:08:14,211 - tests.util - test_user has been created
+2020-01-12 18:08:14,212 - tests.util - TestDep has been created
+2020-01-12 18:08:14,235 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:14,252 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:08:14,372 - tests.util - Test database has been created
+2020-01-12 18:08:14,479 - tests.util - admin has been created
+2020-01-12 18:08:14,588 - tests.util - test_user has been created
+2020-01-12 18:08:14,588 - tests.util - TestDep has been created
+2020-01-12 18:08:14,609 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:14,629 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:08:14,762 - tests.util - Test database has been created
+2020-01-12 18:08:14,875 - tests.util - admin has been created
+2020-01-12 18:08:14,981 - tests.util - test_user has been created
+2020-01-12 18:08:14,981 - tests.util - TestDep has been created
+2020-01-12 18:08:15,003 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:15,005 - test_models - Department TestDep has been tested
+2020-01-12 18:08:15,024 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:08:15,145 - tests.util - Test database has been created
+2020-01-12 18:08:15,253 - tests.util - admin has been created
+2020-01-12 18:08:15,357 - tests.util - test_user has been created
+2020-01-12 18:08:15,358 - tests.util - TestDep has been created
+2020-01-12 18:08:15,377 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:15,401 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:08:15,527 - tests.util - Test database has been created
+2020-01-12 18:08:15,643 - tests.util - admin has been created
+2020-01-12 18:08:15,752 - tests.util - test_user has been created
+2020-01-12 18:08:15,753 - tests.util - TestDep has been created
+2020-01-12 18:08:15,773 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:15,795 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:08:15,928 - tests.util - Test database has been created
+2020-01-12 18:08:16,038 - tests.util - admin has been created
+2020-01-12 18:08:16,144 - tests.util - test_user has been created
+2020-01-12 18:08:16,145 - tests.util - TestDep has been created
+2020-01-12 18:08:16,165 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:16,267 - test_views - Login page status: 200. Test is done.
+2020-01-12 18:08:16,291 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:08:16,420 - tests.util - Test database has been created
+2020-01-12 18:08:16,531 - tests.util - admin has been created
+2020-01-12 18:08:16,636 - tests.util - test_user has been created
+2020-01-12 18:08:16,637 - tests.util - TestDep has been created
+2020-01-12 18:08:16,654 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:16,657 - test_views - No access to logout before logging in, status: 302
+2020-01-12 18:08:16,658 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-12 18:08:16,672 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:08:16,800 - tests.util - Test database has been created
+2020-01-12 18:08:16,918 - tests.util - admin has been created
+2020-01-12 18:08:17,028 - tests.util - test_user has been created
+2020-01-12 18:08:17,028 - tests.util - TestDep has been created
+2020-01-12 18:08:17,049 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:17,129 - test_views - register page status: 200. Test is done.
+2020-01-12 18:08:17,151 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:08:17,270 - tests.util - Test database has been created
+2020-01-12 18:08:17,382 - tests.util - admin has been created
+2020-01-12 18:08:17,487 - tests.util - test_user has been created
+2020-01-12 18:08:17,487 - tests.util - TestDep has been created
+2020-01-12 18:08:17,508 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:17,513 - test_views - No access to home.admin.dashboard, status: 302
+2020-01-12 18:08:17,513 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-12 18:08:17,533 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:08:17,663 - tests.util - Test database has been created
+2020-01-12 18:08:17,779 - tests.util - admin has been created
+2020-01-12 18:08:17,886 - tests.util - test_user has been created
+2020-01-12 18:08:17,886 - tests.util - TestDep has been created
+2020-01-12 18:08:17,902 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:17,905 - test_views - No access to home.dashboard, status: 302
+2020-01-12 18:08:17,905 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-12 18:08:17,928 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:08:18,051 - tests.util - Test database has been created
+2020-01-12 18:08:18,163 - tests.util - admin has been created
+2020-01-12 18:08:18,268 - tests.util - test_user has been created
+2020-01-12 18:08:18,268 - tests.util - TestDep has been created
+2020-01-12 18:08:18,289 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:08:18,311 - test_views - Homepage status: 200. Test is done.
+2020-01-12 18:08:18,327 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:11,518 - tests.util - Test database has been created
+2020-01-12 18:09:11,636 - tests.util - admin has been created
+2020-01-12 18:09:11,749 - tests.util - test_user has been created
+2020-01-12 18:09:11,750 - tests.util - TestDep has been created
+2020-01-12 18:09:11,770 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:11,801 - test_errors - 403 forbidden status: 403. Test is done.
+2020-01-12 18:09:11,818 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:11,933 - tests.util - Test database has been created
+2020-01-12 18:09:12,047 - tests.util - admin has been created
+2020-01-12 18:09:12,161 - tests.util - test_user has been created
+2020-01-12 18:09:12,162 - tests.util - TestDep has been created
+2020-01-12 18:09:12,179 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:12,195 - test_errors - Access to /empty is denied.It doesnt exist, status: 404. Test is done
+2020-01-12 18:09:12,217 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:12,342 - tests.util - Test database has been created
+2020-01-12 18:09:12,457 - tests.util - admin has been created
+2020-01-12 18:09:12,565 - tests.util - test_user has been created
+2020-01-12 18:09:12,565 - tests.util - TestDep has been created
+2020-01-12 18:09:12,580 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:12,597 - test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-12 18:09:12,616 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:12,744 - tests.util - Test database has been created
+2020-01-12 18:09:12,858 - tests.util - admin has been created
+2020-01-12 18:09:12,965 - tests.util - test_user has been created
+2020-01-12 18:09:12,965 - tests.util - TestDep has been created
+2020-01-12 18:09:12,979 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:13,003 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:13,127 - tests.util - Test database has been created
+2020-01-12 18:09:13,236 - tests.util - admin has been created
+2020-01-12 18:09:13,344 - tests.util - test_user has been created
+2020-01-12 18:09:13,344 - tests.util - TestDep has been created
+2020-01-12 18:09:13,360 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:13,379 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:13,509 - tests.util - Test database has been created
+2020-01-12 18:09:13,625 - tests.util - admin has been created
+2020-01-12 18:09:13,733 - tests.util - test_user has been created
+2020-01-12 18:09:13,734 - tests.util - TestDep has been created
+2020-01-12 18:09:13,752 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:13,769 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:13,885 - tests.util - Test database has been created
+2020-01-12 18:09:13,996 - tests.util - admin has been created
+2020-01-12 18:09:14,105 - tests.util - test_user has been created
+2020-01-12 18:09:14,105 - tests.util - TestDep has been created
+2020-01-12 18:09:14,125 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:14,142 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:14,264 - tests.util - Test database has been created
+2020-01-12 18:09:14,379 - tests.util - admin has been created
+2020-01-12 18:09:14,485 - tests.util - test_user has been created
+2020-01-12 18:09:14,486 - tests.util - TestDep has been created
+2020-01-12 18:09:14,508 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:14,528 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:14,650 - tests.util - Test database has been created
+2020-01-12 18:09:14,763 - tests.util - admin has been created
+2020-01-12 18:09:14,871 - tests.util - test_user has been created
+2020-01-12 18:09:14,871 - tests.util - TestDep has been created
+2020-01-12 18:09:14,891 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:14,911 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:15,034 - tests.util - Test database has been created
+2020-01-12 18:09:15,144 - tests.util - admin has been created
+2020-01-12 18:09:15,249 - tests.util - test_user has been created
+2020-01-12 18:09:15,250 - tests.util - TestDep has been created
+2020-01-12 18:09:15,271 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:15,288 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:15,413 - tests.util - Test database has been created
+2020-01-12 18:09:15,524 - tests.util - admin has been created
+2020-01-12 18:09:15,635 - tests.util - test_user has been created
+2020-01-12 18:09:15,635 - tests.util - TestDep has been created
+2020-01-12 18:09:15,654 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:15,680 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:15,798 - tests.util - Test database has been created
+2020-01-12 18:09:15,910 - tests.util - admin has been created
+2020-01-12 18:09:16,016 - tests.util - test_user has been created
+2020-01-12 18:09:16,017 - tests.util - TestDep has been created
+2020-01-12 18:09:16,035 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:16,055 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:16,180 - tests.util - Test database has been created
+2020-01-12 18:09:16,296 - tests.util - admin has been created
+2020-01-12 18:09:16,408 - tests.util - test_user has been created
+2020-01-12 18:09:16,408 - tests.util - TestDep has been created
+2020-01-12 18:09:16,431 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:16,458 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:16,589 - tests.util - Test database has been created
+2020-01-12 18:09:16,704 - tests.util - admin has been created
+2020-01-12 18:09:16,817 - tests.util - test_user has been created
+2020-01-12 18:09:16,817 - tests.util - TestDep has been created
+2020-01-12 18:09:16,837 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:16,839 - test_models - Department TestDep has been tested
+2020-01-12 18:09:16,857 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:16,981 - tests.util - Test database has been created
+2020-01-12 18:09:17,092 - tests.util - admin has been created
+2020-01-12 18:09:17,199 - tests.util - test_user has been created
+2020-01-12 18:09:17,199 - tests.util - TestDep has been created
+2020-01-12 18:09:17,221 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:17,249 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:17,364 - tests.util - Test database has been created
+2020-01-12 18:09:17,480 - tests.util - admin has been created
+2020-01-12 18:09:17,591 - tests.util - test_user has been created
+2020-01-12 18:09:17,591 - tests.util - TestDep has been created
+2020-01-12 18:09:17,614 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:17,637 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:17,763 - tests.util - Test database has been created
+2020-01-12 18:09:17,875 - tests.util - admin has been created
+2020-01-12 18:09:17,984 - tests.util - test_user has been created
+2020-01-12 18:09:17,984 - tests.util - TestDep has been created
+2020-01-12 18:09:18,004 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:18,103 - test_views - Login page status: 200. Test is done.
+2020-01-12 18:09:18,124 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:18,245 - tests.util - Test database has been created
+2020-01-12 18:09:18,361 - tests.util - admin has been created
+2020-01-12 18:09:18,468 - tests.util - test_user has been created
+2020-01-12 18:09:18,469 - tests.util - TestDep has been created
+2020-01-12 18:09:18,487 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:18,490 - test_views - No access to logout before logging in, status: 302
+2020-01-12 18:09:18,491 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-12 18:09:18,513 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:18,642 - tests.util - Test database has been created
+2020-01-12 18:09:18,752 - tests.util - admin has been created
+2020-01-12 18:09:18,857 - tests.util - test_user has been created
+2020-01-12 18:09:18,858 - tests.util - TestDep has been created
+2020-01-12 18:09:18,878 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:18,964 - test_views - register page status: 200. Test is done.
+2020-01-12 18:09:18,985 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:19,105 - tests.util - Test database has been created
+2020-01-12 18:09:19,218 - tests.util - admin has been created
+2020-01-12 18:09:19,324 - tests.util - test_user has been created
+2020-01-12 18:09:19,324 - tests.util - TestDep has been created
+2020-01-12 18:09:19,345 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:19,347 - test_views - No access to home.admin.dashboard, status: 302
+2020-01-12 18:09:19,348 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-12 18:09:19,363 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:19,489 - tests.util - Test database has been created
+2020-01-12 18:09:19,599 - tests.util - admin has been created
+2020-01-12 18:09:19,703 - tests.util - test_user has been created
+2020-01-12 18:09:19,704 - tests.util - TestDep has been created
+2020-01-12 18:09:19,721 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:19,724 - test_views - No access to home.dashboard, status: 302
+2020-01-12 18:09:19,724 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-12 18:09:19,745 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:09:19,861 - tests.util - Test database has been created
+2020-01-12 18:09:19,977 - tests.util - admin has been created
+2020-01-12 18:09:20,087 - tests.util - test_user has been created
+2020-01-12 18:09:20,087 - tests.util - TestDep has been created
+2020-01-12 18:09:20,104 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:09:20,120 - test_views - Homepage status: 200. Test is done.
+2020-01-12 18:09:20,137 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:37,640 - tests.util - Test database has been created
+2020-01-12 18:14:37,748 - tests.util - admin has been created
+2020-01-12 18:14:37,856 - tests.util - test_user has been created
+2020-01-12 18:14:37,856 - tests.util - TestDep has been created
+2020-01-12 18:14:37,882 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:37,919 - test_errors - 403 forbidden status: 403. Test is done.
+2020-01-12 18:14:37,937 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:38,058 - tests.util - Test database has been created
+2020-01-12 18:14:38,174 - tests.util - admin has been created
+2020-01-12 18:14:38,286 - tests.util - test_user has been created
+2020-01-12 18:14:38,286 - tests.util - TestDep has been created
+2020-01-12 18:14:38,308 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:38,323 - test_errors - Access to /empty is denied.It doesnt exist, status: 404. Test is done
+2020-01-12 18:14:38,341 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:38,460 - tests.util - Test database has been created
+2020-01-12 18:14:38,575 - tests.util - admin has been created
+2020-01-12 18:14:38,682 - tests.util - test_user has been created
+2020-01-12 18:14:38,682 - tests.util - TestDep has been created
+2020-01-12 18:14:38,703 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:38,720 - test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-12 18:14:38,739 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:38,865 - tests.util - Test database has been created
+2020-01-12 18:14:38,977 - tests.util - admin has been created
+2020-01-12 18:14:39,083 - tests.util - test_user has been created
+2020-01-12 18:14:39,084 - tests.util - TestDep has been created
+2020-01-12 18:14:39,097 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:39,117 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:39,236 - tests.util - Test database has been created
+2020-01-12 18:14:39,343 - tests.util - admin has been created
+2020-01-12 18:14:39,451 - tests.util - test_user has been created
+2020-01-12 18:14:39,451 - tests.util - TestDep has been created
+2020-01-12 18:14:39,467 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:39,486 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:39,612 - tests.util - Test database has been created
+2020-01-12 18:14:39,726 - tests.util - admin has been created
+2020-01-12 18:14:39,836 - tests.util - test_user has been created
+2020-01-12 18:14:39,836 - tests.util - TestDep has been created
+2020-01-12 18:14:39,885 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:39,910 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:40,033 - tests.util - Test database has been created
+2020-01-12 18:14:40,143 - tests.util - admin has been created
+2020-01-12 18:14:40,247 - tests.util - test_user has been created
+2020-01-12 18:14:40,248 - tests.util - TestDep has been created
+2020-01-12 18:14:40,264 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:40,280 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:40,409 - tests.util - Test database has been created
+2020-01-12 18:14:40,520 - tests.util - admin has been created
+2020-01-12 18:14:40,625 - tests.util - test_user has been created
+2020-01-12 18:14:40,625 - tests.util - TestDep has been created
+2020-01-12 18:14:40,645 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:40,668 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:40,784 - tests.util - Test database has been created
+2020-01-12 18:14:40,895 - tests.util - admin has been created
+2020-01-12 18:14:41,001 - tests.util - test_user has been created
+2020-01-12 18:14:41,001 - tests.util - TestDep has been created
+2020-01-12 18:14:41,023 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:41,049 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:41,171 - tests.util - Test database has been created
+2020-01-12 18:14:41,282 - tests.util - admin has been created
+2020-01-12 18:14:41,387 - tests.util - test_user has been created
+2020-01-12 18:14:41,387 - tests.util - TestDep has been created
+2020-01-12 18:14:41,415 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:41,432 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:41,562 - tests.util - Test database has been created
+2020-01-12 18:14:41,676 - tests.util - admin has been created
+2020-01-12 18:14:41,785 - tests.util - test_user has been created
+2020-01-12 18:14:41,785 - tests.util - TestDep has been created
+2020-01-12 18:14:41,799 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:41,820 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:41,941 - tests.util - Test database has been created
+2020-01-12 18:14:42,054 - tests.util - admin has been created
+2020-01-12 18:14:42,160 - tests.util - test_user has been created
+2020-01-12 18:14:42,160 - tests.util - TestDep has been created
+2020-01-12 18:14:42,183 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:42,202 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:42,317 - tests.util - Test database has been created
+2020-01-12 18:14:42,428 - tests.util - admin has been created
+2020-01-12 18:14:42,534 - tests.util - test_user has been created
+2020-01-12 18:14:42,534 - tests.util - TestDep has been created
+2020-01-12 18:14:42,547 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:42,572 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:42,708 - tests.util - Test database has been created
+2020-01-12 18:14:42,820 - tests.util - admin has been created
+2020-01-12 18:14:42,924 - tests.util - test_user has been created
+2020-01-12 18:14:42,924 - tests.util - TestDep has been created
+2020-01-12 18:14:42,943 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:42,945 - test_models - Department TestDep has been tested
+2020-01-12 18:14:42,963 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:43,090 - tests.util - Test database has been created
+2020-01-12 18:14:43,201 - tests.util - admin has been created
+2020-01-12 18:14:43,306 - tests.util - test_user has been created
+2020-01-12 18:14:43,307 - tests.util - TestDep has been created
+2020-01-12 18:14:43,325 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:43,356 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:43,476 - tests.util - Test database has been created
+2020-01-12 18:14:43,589 - tests.util - admin has been created
+2020-01-12 18:14:43,695 - tests.util - test_user has been created
+2020-01-12 18:14:43,695 - tests.util - TestDep has been created
+2020-01-12 18:14:43,722 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:43,745 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:43,877 - tests.util - Test database has been created
+2020-01-12 18:14:43,990 - tests.util - admin has been created
+2020-01-12 18:14:44,096 - tests.util - test_user has been created
+2020-01-12 18:14:44,097 - tests.util - TestDep has been created
+2020-01-12 18:14:44,116 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:44,206 - test_views - Login page status: 200. Test is done.
+2020-01-12 18:14:44,227 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:44,351 - tests.util - Test database has been created
+2020-01-12 18:14:44,464 - tests.util - admin has been created
+2020-01-12 18:14:44,575 - tests.util - test_user has been created
+2020-01-12 18:14:44,576 - tests.util - TestDep has been created
+2020-01-12 18:14:44,594 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:44,597 - test_views - No access to logout before logging in, status: 302
+2020-01-12 18:14:44,598 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-12 18:14:44,613 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:44,741 - tests.util - Test database has been created
+2020-01-12 18:14:44,856 - tests.util - admin has been created
+2020-01-12 18:14:44,962 - tests.util - test_user has been created
+2020-01-12 18:14:44,962 - tests.util - TestDep has been created
+2020-01-12 18:14:44,980 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:45,069 - test_views - register page status: 200. Test is done.
+2020-01-12 18:14:45,088 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:45,212 - tests.util - Test database has been created
+2020-01-12 18:14:45,324 - tests.util - admin has been created
+2020-01-12 18:14:45,429 - tests.util - test_user has been created
+2020-01-12 18:14:45,429 - tests.util - TestDep has been created
+2020-01-12 18:14:45,449 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:45,452 - test_views - No access to home.admin.dashboard, status: 302
+2020-01-12 18:14:45,452 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-12 18:14:45,468 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:45,597 - tests.util - Test database has been created
+2020-01-12 18:14:45,707 - tests.util - admin has been created
+2020-01-12 18:14:45,813 - tests.util - test_user has been created
+2020-01-12 18:14:45,813 - tests.util - TestDep has been created
+2020-01-12 18:14:45,834 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:45,837 - test_views - No access to home.dashboard, status: 302
+2020-01-12 18:14:45,838 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-12 18:14:45,853 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:14:45,977 - tests.util - Test database has been created
+2020-01-12 18:14:46,094 - tests.util - admin has been created
+2020-01-12 18:14:46,200 - tests.util - test_user has been created
+2020-01-12 18:14:46,200 - tests.util - TestDep has been created
+2020-01-12 18:14:46,225 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:14:46,247 - test_views - Homepage status: 200. Test is done.
+2020-01-12 18:14:46,268 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:16:52,678 - tests.util - Test database has been created
+2020-01-12 18:16:52,790 - tests.util - admin has been created
+2020-01-12 18:16:52,898 - tests.util - test_user has been created
+2020-01-12 18:16:52,898 - tests.util - TestDep has been created
+2020-01-12 18:16:52,920 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:16:52,941 - test_errors - 403 forbidden status: 403. Test is done.
+2020-01-12 18:16:52,959 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:16:53,077 - tests.util - Test database has been created
+2020-01-12 18:16:53,190 - tests.util - admin has been created
+2020-01-12 18:16:53,295 - tests.util - test_user has been created
+2020-01-12 18:16:53,296 - tests.util - TestDep has been created
+2020-01-12 18:16:53,316 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:16:53,333 - test_errors - Access to /empty is denied.It doesnt exist, status: 404. Test is done
+2020-01-12 18:16:53,349 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:16:53,479 - tests.util - Test database has been created
+2020-01-12 18:16:53,599 - tests.util - admin has been created
+2020-01-12 18:16:53,704 - tests.util - test_user has been created
+2020-01-12 18:16:53,704 - tests.util - TestDep has been created
+2020-01-12 18:16:53,721 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:16:53,742 - test_errors - Access is denied,server error, status: 500. Test is done
+2020-01-12 18:16:53,757 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:16:53,884 - tests.util - Test database has been created
+2020-01-12 18:16:53,996 - tests.util - admin has been created
+2020-01-12 18:16:54,102 - tests.util - test_user has been created
+2020-01-12 18:16:54,103 - tests.util - TestDep has been created
+2020-01-12 18:16:54,155 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:16:54,172 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:16:54,299 - tests.util - Test database has been created
+2020-01-12 18:16:54,406 - tests.util - admin has been created
+2020-01-12 18:16:54,516 - tests.util - test_user has been created
+2020-01-12 18:16:54,517 - tests.util - TestDep has been created
+2020-01-12 18:16:54,536 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:16:54,557 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:16:54,676 - tests.util - Test database has been created
+2020-01-12 18:16:54,786 - tests.util - admin has been created
+2020-01-12 18:16:54,894 - tests.util - test_user has been created
+2020-01-12 18:16:54,895 - tests.util - TestDep has been created
+2020-01-12 18:16:54,914 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:16:54,937 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:16:55,062 - tests.util - Test database has been created
+2020-01-12 18:16:55,174 - tests.util - admin has been created
+2020-01-12 18:16:55,279 - tests.util - test_user has been created
+2020-01-12 18:16:55,280 - tests.util - TestDep has been created
+2020-01-12 18:16:55,297 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:16:55,313 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:16:55,440 - tests.util - Test database has been created
+2020-01-12 18:16:55,549 - tests.util - admin has been created
+2020-01-12 18:16:55,657 - tests.util - test_user has been created
+2020-01-12 18:16:55,658 - tests.util - TestDep has been created
+2020-01-12 18:16:55,674 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:16:55,697 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:16:55,817 - tests.util - Test database has been created
+2020-01-12 18:16:55,929 - tests.util - admin has been created
+2020-01-12 18:16:56,034 - tests.util - test_user has been created
+2020-01-12 18:16:56,034 - tests.util - TestDep has been created
+2020-01-12 18:16:56,056 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:16:56,078 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:16:56,195 - tests.util - Test database has been created
+2020-01-12 18:16:56,301 - tests.util - admin has been created
+2020-01-12 18:16:56,405 - tests.util - test_user has been created
+2020-01-12 18:16:56,405 - tests.util - TestDep has been created
+2020-01-12 18:16:56,422 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:16:56,442 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:16:56,560 - tests.util - Test database has been created
+2020-01-12 18:16:56,672 - tests.util - admin has been created
+2020-01-12 18:16:56,779 - tests.util - test_user has been created
+2020-01-12 18:16:56,779 - tests.util - TestDep has been created
+2020-01-12 18:16:56,801 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:16:56,822 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:16:56,941 - tests.util - Test database has been created
+2020-01-12 18:16:57,054 - tests.util - admin has been created
+2020-01-12 18:16:57,159 - tests.util - test_user has been created
+2020-01-12 18:16:57,159 - tests.util - TestDep has been created
+2020-01-12 18:16:57,174 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:16:57,189 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:16:57,313 - tests.util - Test database has been created
+2020-01-12 18:16:57,422 - tests.util - admin has been created
+2020-01-12 18:16:57,530 - tests.util - test_user has been created
+2020-01-12 18:16:57,530 - tests.util - TestDep has been created
+2020-01-12 18:16:57,554 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:16:57,576 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:16:57,703 - tests.util - Test database has been created
+2020-01-12 18:16:57,819 - tests.util - admin has been created
+2020-01-12 18:16:57,926 - tests.util - test_user has been created
+2020-01-12 18:16:57,926 - tests.util - TestDep has been created
+2020-01-12 18:16:57,945 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:16:57,946 - test_models - Department TestDep has been tested
+2020-01-12 18:16:57,969 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:16:58,089 - tests.util - Test database has been created
+2020-01-12 18:16:58,202 - tests.util - admin has been created
+2020-01-12 18:16:58,309 - tests.util - test_user has been created
+2020-01-12 18:16:58,309 - tests.util - TestDep has been created
+2020-01-12 18:16:58,328 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:16:58,353 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:16:58,471 - tests.util - Test database has been created
+2020-01-12 18:16:58,582 - tests.util - admin has been created
+2020-01-12 18:16:58,687 - tests.util - test_user has been created
+2020-01-12 18:16:58,688 - tests.util - TestDep has been created
+2020-01-12 18:16:58,711 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:16:58,732 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:16:58,861 - tests.util - Test database has been created
+2020-01-12 18:16:58,971 - tests.util - admin has been created
+2020-01-12 18:16:59,076 - tests.util - test_user has been created
+2020-01-12 18:16:59,077 - tests.util - TestDep has been created
+2020-01-12 18:16:59,097 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:16:59,185 - test_views - Login page status: 200. Test is done.
+2020-01-12 18:16:59,203 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:16:59,326 - tests.util - Test database has been created
+2020-01-12 18:16:59,439 - tests.util - admin has been created
+2020-01-12 18:16:59,545 - tests.util - test_user has been created
+2020-01-12 18:16:59,545 - tests.util - TestDep has been created
+2020-01-12 18:16:59,560 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:16:59,564 - test_views - No access to logout before logging in, status: 302
+2020-01-12 18:16:59,564 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-12 18:16:59,587 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:16:59,696 - tests.util - Test database has been created
+2020-01-12 18:16:59,807 - tests.util - admin has been created
+2020-01-12 18:16:59,915 - tests.util - test_user has been created
+2020-01-12 18:16:59,915 - tests.util - TestDep has been created
+2020-01-12 18:16:59,933 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:17:00,010 - test_views - register page status: 200. Test is done.
+2020-01-12 18:17:00,030 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:17:00,147 - tests.util - Test database has been created
+2020-01-12 18:17:00,288 - tests.util - admin has been created
+2020-01-12 18:17:00,396 - tests.util - test_user has been created
+2020-01-12 18:17:00,396 - tests.util - TestDep has been created
+2020-01-12 18:17:00,439 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:17:00,443 - test_views - No access to home.admin.dashboard, status: 302
+2020-01-12 18:17:00,443 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-12 18:17:00,462 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:17:00,618 - tests.util - Test database has been created
+2020-01-12 18:17:00,730 - tests.util - admin has been created
+2020-01-12 18:17:00,838 - tests.util - test_user has been created
+2020-01-12 18:17:00,838 - tests.util - TestDep has been created
+2020-01-12 18:17:00,853 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:17:00,857 - test_views - No access to home.dashboard, status: 302
+2020-01-12 18:17:00,858 - test_views - Redirected to login page  status: 302. Test is done
+2020-01-12 18:17:00,875 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
+2020-01-12 18:17:00,998 - tests.util - Test database has been created
+2020-01-12 18:17:01,105 - tests.util - admin has been created
+2020-01-12 18:17:01,212 - tests.util - test_user has been created
+2020-01-12 18:17:01,213 - tests.util - TestDep has been created
+2020-01-12 18:17:01,229 - tests.util - Test TestDep, admin and test_user have been committed
+2020-01-12 18:17:01,247 - test_views - Homepage status: 200. Test is done.
+2020-01-12 18:17:01,263 - tests.util - Test database has been deleted
+--------------------------------------------------------------------------------------
