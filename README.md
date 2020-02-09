@@ -37,7 +37,7 @@ $ flask init upgrade
 
 Create admin user  
 $ flask shell  
-$ from app.models import Employee  
+$ from .models import Employee  
 $ from app import db  
 $ admin = Employee(email="example@example.com",username="example",password="example",is_admin=True)
 
